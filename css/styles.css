@@ -157,3 +157,9 @@ footer {
      #people { justify-content: start; }
   */
 }
+
+/* ---------------- Contact ---------------- */
+#contact           { display:flex; flex-wrap:wrap; gap:2rem; justify-content:space-between; }
+#contact > h2      { flex:1 0 100%; margin-bottom:1.5rem; }
+.contact-card      { flex:1 1 260px; font-size:.95rem; }
+.contact-card.right{ text-align:right; }
