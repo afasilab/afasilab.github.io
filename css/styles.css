@@ -1,10 +1,10 @@
-/* Afasizhev Lab – unified stylesheet (v4) */
+/* Afasizhev Lab – unified stylesheet (v5) */
 
 :root {
   --accent: #0064d6;
   --accent-light: #e9f3ff;
   --text-color: #333;
-  --bg: #ffffff; /* всегда белый фон */
+  --bg: #ffffff; /* белый фон всегда */
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -37,8 +37,9 @@ nav {
   background: var(--bg);
   z-index: 1000;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
-  justify-content: center; /* центрируем пункты меню */
   padding: .5rem 1rem;
   box-shadow: 0 2px 4px rgb(0 0 0 / .05);
 }
@@ -55,20 +56,25 @@ nav a:hover { text-decoration: underline; }
 h1, h2, h3, h4 {
   font-family: var(--font-sans);
   color: var(--text-color);
-  text-align: center;
+  text-align: center; /* гарантия центрирования */
 }
 
-/* аккуратная линия под h2 */
+/* h2 с полной линией на всю ширину секции */
 section > h2 {
-  display: inline-block;
-  margin: 0 auto 1.5rem;
-  padding: 0 .75rem .25rem;
-  border-bottom: 2px solid var(--accent-light);
-  text-align: center; /* гарантируем центрирование самого текста */
+  margin: 0 0 1.75rem;
+  position: relative;
+  font-weight: 600;
+}
+section > h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--accent-light);
+  margin-top: .35rem;
 }
 
 section { margin-bottom: clamp(2rem, 6vw, 3.5rem); }
-
 ul { list-style: disc; padding-left: 1.25rem; }
 
 /* ---------------- Images ---------------- */
@@ -88,7 +94,7 @@ img {
 }
 
 .team-member {
-  width: min(220px, 100%); /* более компактные карточки */
+  width: min(180px, 100%); /* уменьшили размер фото/карточки */
   text-align: center;
 }
 
@@ -109,7 +115,7 @@ footer {
   font-size: .875rem;
 }
 
-/* ---------------- Back-to-top (опционально) ---------------- */
+/* ---------------- Back-to-top (optional) ---------------- */
 #toTop {
   position: fixed; bottom: 1rem; right: 1rem;
   display: none; padding: .5rem .75rem;
@@ -117,7 +123,11 @@ footer {
   border: none; border-radius: 4px;
   cursor: pointer;
 }
-
 #toTop.show { display: block; }
 
-/* -------- Media query: >768px ничего не меняем -------- */
+/* -------- Media query: >768px -------- */
+@media (min-width: 768px) {
+  /* Доп. flex-раскладка для People, если нужно горизонтально на десктопе
+     #people { justify-content: start; }
+  */
+}
