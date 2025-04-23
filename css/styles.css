@@ -93,6 +93,12 @@ img {
   justify-content: center;
 }
 
+/* заголовок «Our Team» занимает всю строку внутри flex‑контейнера */
+#people > h2 {
+  flex: 1 0 100%;
+  margin-bottom: 1.5rem;
+}
+
 .team-member {
   width: min(180px, 100%); /* уменьшили размер фото/карточки */
   text-align: center;
