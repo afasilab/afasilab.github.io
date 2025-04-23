@@ -26,8 +26,8 @@ from pathlib import Path
 import re
 
 # Paths to files
-index_path = Path("../index.html")
-team_path = Path("people/team.html")
+index_path = Path("./index.html")
+team_path = Path("./people/team.html")
 
 # Read files
 index_html = index_path.read_text(encoding="utf-8")
