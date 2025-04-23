@@ -1,10 +1,10 @@
-/* Afasizhev Lab – unified stylesheet */
+/* Afasizhev Lab – unified stylesheet (v2) */
 
 :root {
   --accent: #0064d6;
   --accent-light: #e9f3ff;
   --text-color: #333;
-  --bg: #fff;
+  --bg: #ffffff; /* всегда белый фон */
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -30,6 +30,7 @@ header {
   border-bottom: 2px solid #ccc;
 }
 
+/* ---------------- Nav ---------------- */
 nav {
   position: sticky;
   top: 0;
@@ -49,20 +50,49 @@ nav a {
 
 nav a:hover { text-decoration: underline; }
 
-section { margin-bottom: clamp(2rem, 6vw, 3.5rem); }
-
-h1, h2, h3, h4 { font-family: var(--font-sans); color: var(--text-color); }
+/* ---------------- Typography ---------------- */
+h1, h2, h3, h4 {
+  font-family: var(--font-sans);
+  color: var(--text-color);
+  text-align: center; /* центровка всех заголовков */
+}
 
 h2 { margin-top: 0; }
 
+section { margin-bottom: clamp(2rem, 6vw, 3.5rem); }
+
 ul { list-style: disc; padding-left: 1.25rem; }
 
-img { max-width: 100%; height: auto; border-radius: 8px; object-fit: cover; }
+/* ---------------- Images ---------------- */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
 
-#people { display: flex; flex-wrap: wrap; gap: 2rem; }
+/* ---------------- People section ---------------- */
+#people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
 
-.team-member { width: min(300px, 100%); }
+.team-member {
+  width: min(300px, 100%);
+  text-align: center;
+}
 
+.team-member img {
+  width: 100%; /* как было раньше: изображение по всей ширине карточки */
+  margin-bottom: .75rem;
+}
+
+/* ---------------- Publications ---------------- */
+.pub-entry { margin-bottom: 1.25rem; }
+
+/* ---------------- Footer ---------------- */
 footer {
   text-align: center;
   padding-top: 2rem;
@@ -71,10 +101,7 @@ footer {
   font-size: .875rem;
 }
 
-/* Publications list */
-.pub-entry { margin-bottom: 1.25rem; }
-
-/* Back-to-top optional toggle: hidden until JS toggles .show */
+/* ---------------- Back-to-top (опционально) ---------------- */
 #toTop {
   position: fixed; bottom: 1rem; right: 1rem;
   display: none; padding: .5rem .75rem;
@@ -85,19 +112,4 @@ footer {
 
 #toTop.show { display: block; }
 
-/* Media queries */
-@media (min-width: 768px) {
-  #people .team-member { display: flex; gap: 1rem; }
-  #people .team-member img { width: 120px; flex-shrink: 0; }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0d0d0d;
-    --text-color: #f2f2f2;
-    --accent: #4d9dff;
-    --accent-light: #133a66;
-  }
-  nav { box-shadow: 0 2px 4px rgb(255 255 255 / .05); }
-  footer { border-top: 1px solid #444; }
-}
+/* -------- Media query: больше 768px ничего не меняем, карточки остаются столбиками -------- */
