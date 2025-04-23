@@ -1,37 +1,103 @@
-<style>
-  #people {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding: 20px 0;
-  }
+/* Afasizhev Lab – unified stylesheet */
 
-  .person {
-    width: 300px;
-    flex-shrink: 0;
-    font-family: sans-serif;
-  }
+:root {
+  --accent: #0064d6;
+  --accent-light: #e9f3ff;
+  --text-color: #333;
+  --bg: #fff;
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
 
-  .person img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
-  }
+html { scroll-behavior: smooth; }
 
-  .person h3 {
-    margin: 10px 0 5px;
-    font-size: 1.1em;
-  }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-color);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
 
-  .person a {
-    color: #007acc;
-    text-decoration: none;
-  }
+main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: clamp(.75rem, 2vw, 2rem);
+}
 
-  .person a:hover {
-    text-decoration: underline;
+header {
+  text-align: center;
+  padding: clamp(1rem, 3vw, 2rem) 0;
+  border-bottom: 2px solid #ccc;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 1000;
+  display: flex;
+  gap: 1rem;
+  padding: .5rem 1rem;
+  box-shadow: 0 2px 4px rgb(0 0 0 / .05);
+}
+
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover { text-decoration: underline; }
+
+section { margin-bottom: clamp(2rem, 6vw, 3.5rem); }
+
+h1, h2, h3, h4 { font-family: var(--font-sans); color: var(--text-color); }
+
+h2 { margin-top: 0; }
+
+ul { list-style: disc; padding-left: 1.25rem; }
+
+img { max-width: 100%; height: auto; border-radius: 8px; object-fit: cover; }
+
+#people { display: flex; flex-wrap: wrap; gap: 2rem; }
+
+.team-member { width: min(300px, 100%); }
+
+footer {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+  font-size: .875rem;
+}
+
+/* Publications list */
+.pub-entry { margin-bottom: 1.25rem; }
+
+/* Back-to-top optional toggle: hidden until JS toggles .show */
+#toTop {
+  position: fixed; bottom: 1rem; right: 1rem;
+  display: none; padding: .5rem .75rem;
+  background: var(--accent); color: #fff;
+  border: none; border-radius: 4px;
+  cursor: pointer;
+}
+
+#toTop.show { display: block; }
+
+/* Media queries */
+@media (min-width: 768px) {
+  #people .team-member { display: flex; gap: 1rem; }
+  #people .team-member img { width: 120px; flex-shrink: 0; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d0d0d;
+    --text-color: #f2f2f2;
+    --accent: #4d9dff;
+    --accent-light: #133a66;
   }
-</style>
+  nav { box-shadow: 0 2px 4px rgb(255 255 255 / .05); }
+  footer { border-top: 1px solid #444; }
+}
