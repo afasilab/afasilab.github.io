@@ -1,4 +1,4 @@
-/* Afasizhev Lab – unified stylesheet (v2) */
+/* Afasizhev Lab – unified stylesheet (v3) */
 
 :root {
   --accent: #0064d6;
@@ -38,6 +38,7 @@ nav {
   z-index: 1000;
   display: flex;
   gap: 1rem;
+  justify-content: center; /* центрируем пункты меню */
   padding: .5rem 1rem;
   box-shadow: 0 2px 4px rgb(0 0 0 / .05);
 }
@@ -54,10 +55,16 @@ nav a:hover { text-decoration: underline; }
 h1, h2, h3, h4 {
   font-family: var(--font-sans);
   color: var(--text-color);
-  text-align: center; /* центровка всех заголовков */
+  text-align: center;
 }
 
-h2 { margin-top: 0; }
+/* аккуратная линия под h2 */
+section > h2 {
+  display: inline-block;
+  margin: 0 auto 1.5rem;
+  padding: 0 .75rem .25rem;
+  border-bottom: 2px solid var(--accent-light);
+}
 
 section { margin-bottom: clamp(2rem, 6vw, 3.5rem); }
 
@@ -85,7 +92,7 @@ img {
 }
 
 .team-member img {
-  width: 100%; /* как было раньше: изображение по всей ширине карточки */
+  width: 100%;
   margin-bottom: .75rem;
 }
 
@@ -112,4 +119,4 @@ footer {
 
 #toTop.show { display: block; }
 
-/* -------- Media query: больше 768px ничего не меняем, карточки остаются столбиками -------- */
+/* -------- Media query: >768px ничего не меняем, карточки остаются столбиками -------- */
