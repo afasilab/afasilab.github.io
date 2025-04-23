@@ -1,4 +1,4 @@
-/* Afasizhev Lab – unified stylesheet (v3) */
+/* Afasizhev Lab – unified stylesheet (v4) */
 
 :root {
   --accent: #0064d6;
@@ -64,6 +64,7 @@ section > h2 {
   margin: 0 auto 1.5rem;
   padding: 0 .75rem .25rem;
   border-bottom: 2px solid var(--accent-light);
+  text-align: center; /* гарантируем центрирование самого текста */
 }
 
 section { margin-bottom: clamp(2rem, 6vw, 3.5rem); }
@@ -87,7 +88,7 @@ img {
 }
 
 .team-member {
-  width: min(300px, 100%);
+  width: min(220px, 100%); /* более компактные карточки */
   text-align: center;
 }
 
@@ -119,4 +120,4 @@ footer {
 
 #toTop.show { display: block; }
 
-/* -------- Media query: >768px ничего не меняем, карточки остаются столбиками -------- */
+/* -------- Media query: >768px ничего не меняем -------- */
