@@ -129,13 +129,29 @@ img {
 /* нижняя тонкая линия для последнего элемента */
 #people .team-member:last-of-type { border-bottom: 1px solid #e5e5e5; }
 
+
 /* ---------------- Publications ---------------- */
-.pub-entry       { margin:0 0 .9rem 0; line-height:1.45; }
-.pub-entry p     { text-indent:-1.6em; padding-left:1.6em; }
-.pub-entry a.ext::after{
-  content:"↗"; font-size:.75em; margin-left:.15em;
-  vertical-align:super; opacity:.6;
+.pub-entry       { margin:0 0 .9rem 0; }
+.pub-entry p     {               /* обычный левый край */
+  margin:0;
+  line-height:1.45;
+  text-indent:0;          /* убираем висящий отступ */
+  padding-left:0;
 }
+
+.lab-author {                 /* подчёркивание своих */
+  font-weight:600;            /* полужирный */
+  color:#1a3c8b;              /* мягкий BU-blue, при желании поправьте */
+}
+
+
+
+/*.pub-entry       { margin:0 0 .9rem 0; line-height:1.45; }*/
+/*.pub-entry p     { text-indent:-1.6em; padding-left:1.6em; }*/
+/*.pub-entry a.ext::after{*/
+/*  content:"↗"; font-size:.75em; margin-left:.15em;*/
+/*  vertical-align:super; opacity:.6;*/
+/*}*/
 
 /* ---------------- Footer ---------------- */
 footer {

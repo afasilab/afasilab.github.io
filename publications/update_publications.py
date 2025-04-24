@@ -86,6 +86,33 @@ def short_authors(auths: str, keep: int = 3) -> str:
     return (", ".join(names[:keep]) + " et al.") if len(names) > keep + 3 else ", ".join(names)
 # ═══════════════════════════════════
 
+# ──────────────── ДОБАВЬТЕ список «своих» авторов ────────────────
+LAB_MEMBERS = {
+    "Ruslan Afasizhev",
+    "Inna Aphasizheva",
+    "Takuma Suematsu",
+    "Andres Vacas",
+    "Md Solayman",
+}
+
+# ──────────────── helper: выделяем имена ────────────────
+def highlight(author: str) -> str:
+    """Если author среди LAB_MEMBERS → <span class="lab-author"> … </span>"""
+    for name in LAB_MEMBERS:
+        if name.lower() in author.lower():
+            return f'<span class="lab-author">{author}</span>'
+    return author
+
+
+def short_authors(auth_str: str, max_first: int = 3) -> str:
+    """ 'A, B, C et al.'  + подсветка «своих» """
+    authors = [a.strip() for a in auth_str.split(" and ")]
+    authors = [highlight(a) for a in authors]            # ← НОВОЕ
+
+    if len(authors) > max_first + 3:      # >6 авторов — урезаем
+        return ", ".join(authors[:max_first]) + " et&nbsp;al."
+    return ", ".join(authors)
+
 
 # ────────── 1. собираем публикации ──────────
 all_pubs: List[dict] = []
