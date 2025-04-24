@@ -16,19 +16,24 @@ from pathlib import Path
 
 from scholarly import scholarly
 
+
 # ---------- настройки ----------
-AUTHOR_IDS = {
-    "Ruslan Afasizhev": "U7yVbHIAAAAJ",
-    "Inna Afasizheva": "ivXdnsAAAAJ&hl",  # https://scholar.google.com/citations?user=-ivXdnsAAAAJ&hl=en
-}
+REPO_DIR   = Path(__file__).resolve().parents[1]      # …/afasilab.github.io
+BASE_DIR = REPO_DIR
+INDEX_HTML = REPO_DIR / "index.html"
 
-BASE_DIR  = Path(__file__).resolve().parent        # …/afasilab.github.io
-GS_DIR    = BASE_DIR / "publications" / "gs_json"
-INDEX_HTML = BASE_DIR / "index.html"
-
+GS_DIR     = REPO_DIR / "publications" / "gs_json"
 GS_DIR.mkdir(parents=True, exist_ok=True)
+
 today     = datetime.today().strftime("%m-%d-%Y")
 json_file = GS_DIR / f"publications_detailed_{today}.json"
+
+AUTHOR_IDS = {
+    "Ruslan Afasizhev": "U7yVbHIAAAAJ",
+    "Inna Afasizheva":  "-ivXdnsAAAAJ",   # правильный ID
+}
+
+
 # ---------------------------------
 
 def fetch_author_pubs(aid: str) -> list[dict]:
