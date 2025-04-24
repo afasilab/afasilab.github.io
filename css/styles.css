@@ -1,10 +1,10 @@
-/* Afasizhev Lab – unified stylesheet (v5) */
+/* Afasizhev Lab – unified stylesheet (v6) */
 
 :root {
   --accent: #0064d6;
   --accent-light: #e9f3ff;
   --text-color: #333;
-  --bg: #ffffff; /* белый фон всегда */
+  --bg: #ffffff;
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -56,15 +56,15 @@ nav a:hover { text-decoration: underline; }
 h1, h2, h3, h4 {
   font-family: var(--font-sans);
   color: var(--text-color);
-  text-align: center; /* гарантия центрирования */
+  text-align: center;
 }
 
-/* h2 с полной линией на всю ширину секции */
 section > h2 {
   margin: 0 0 1.75rem;
   position: relative;
   font-weight: 600;
 }
+
 section > h2::after {
   content: "";
   display: block;
@@ -74,7 +74,14 @@ section > h2::after {
   margin-top: .35rem;
 }
 
-section { margin-bottom: clamp(2rem, 6vw, 3.5rem); }
+section {
+  margin-bottom: clamp(2rem, 6vw, 3.5rem);
+  clear: both;
+  overflow: hidden;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
 ul { list-style: disc; padding-left: 1.25rem; }
 
 /* ---------------- Images ---------------- */
@@ -93,7 +100,6 @@ img {
   justify-content: center;
 }
 
-/* заголовок «Our Team» занимает всю строку внутри flex‑контейнера */
 #people > h2 {
   flex: 1 0 100%;
   margin-bottom: 1.5rem;
@@ -107,51 +113,54 @@ img {
   border-top: 1px solid #e5e5e5;
   align-items: flex-start;
 }
+
 .team-member:first-of-type { border-top: none; }
+
 .team-member img {
   flex: 0 0 120px;
   width: 120px;
   border-radius: 8px;
   object-fit: cover;
 }
+
 .team-member h3 {
   margin: 0 0 0.25rem;
   font-weight: 700;
   text-align: left;
 }
+
 .team-member p {
   margin: 0.15rem 0;
   text-align: left;
   font-size: 0.95rem;
 }
+
 .team-member p + p { margin-top: 0.5rem; }
 
-/* нижняя тонкая линия для последнего элемента */
 #people .team-member:last-of-type { border-bottom: 1px solid #e5e5e5; }
 
-
 /* ---------------- Publications ---------------- */
-.pub-entry       { margin:0 0 .9rem 0; }
-.pub-entry p     {               /* обычный левый край */
-  margin:0;
-  line-height:1.45;
-  text-indent:0;          /* убираем висящий отступ */
-  padding-left:0;
+#publications {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #ccc;
 }
 
-.lab-author {                 /* подчёркивание своих */
-  font-weight:600;            /* полужирный */
-  color:#1a3c8b;              /* мягкий BU-blue, при желании поправьте */
+.pub-entry {
+  margin: 0 0 .9rem 0;
 }
 
+.pub-entry p {
+  margin: 0;
+  line-height: 1.45;
+  text-indent: 0;
+  padding-left: 0;
+}
 
-
-/*.pub-entry       { margin:0 0 .9rem 0; line-height:1.45; }*/
-/*.pub-entry p     { text-indent:-1.6em; padding-left:1.6em; }*/
-/*.pub-entry a.ext::after{*/
-/*  content:"↗"; font-size:.75em; margin-left:.15em;*/
-/*  vertical-align:super; opacity:.6;*/
-/*}*/
+.lab-author {
+  font-weight: 600;
+  color: #1a3c8b;
+}
 
 /* ---------------- Footer ---------------- */
 footer {
@@ -164,23 +173,45 @@ footer {
 
 /* ---------------- Back-to-top (optional) ---------------- */
 #toTop {
-  position: fixed; bottom: 1rem; right: 1rem;
-  display: none; padding: .5rem .75rem;
-  background: var(--accent); color: #fff;
-  border: none; border-radius: 4px;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: none;
+  padding: .5rem .75rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
+
 #toTop.show { display: block; }
 
 /* -------- Media query: >768px -------- */
 @media (min-width: 768px) {
-  /* Доп. flex-раскладка для People, если нужно горизонтально на десктопе
-     #people { justify-content: start; }
-  */
+  /* Optional additional layout for desktop */
 }
 
-/* ---------------- Contact ---------------- */
-#contact           { display:flex; flex-wrap:wrap; gap:2rem; justify-content:space-between; }
-#contact > h2      { flex:1 0 100%; margin-bottom:1.5rem; }
-.contact-card      { flex:1 1 260px; font-size:.95rem; }
-.contact-card.right{ text-align:right; }
+/* ---------------- Grants and Contact ---------------- */
+#grants, #contact {
+  margin-top: 2rem;
+}
+
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+#contact > h2 {
+  flex: 1 0 100%;
+  margin-bottom: 1.5rem;
+}
+
+.contact-card {
+  flex: 1 1 260px;
+  font-size: .95rem;
+}
+
+.contact-card.right { text-align: right; }

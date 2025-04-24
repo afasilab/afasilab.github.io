@@ -112,7 +112,54 @@ JSON_FILE.write_text(json.dumps(publications, ensure_ascii=False, indent=2), enc
 print(f"💾  Saved → {JSON_FILE.relative_to(REPO_DIR)}")
 
 
-# ──────────────── 3. формируем HTML-блок ────────────────
+# # ──────────────── 3. формируем HTML-блок ────────────────
+# blocks: List[str] = []
+# for p in publications:
+#     link = best_link(p)
+#
+#     cite = (
+#         f'{p["authors"]}. '
+#         f'<a href="{link}" target="_blank" class="ext">{p["title"]}</a>.'
+#     )
+#
+#     if p["journal"]:
+#         cite += f' <em>{p["journal"]}</em>'
+#     if p["volume"]:
+#         cite += f', <strong>{p["volume"]}</strong>'
+#     if p["number"]:
+#         cite += f'({p["number"]})'
+#     if p["pages"]:
+#         cite += f', {p["pages"]}'
+#     cite += f', {p["year"]}.'
+#
+#     blocks.append(f'    <div class="pub-entry"><p>{cite}</p></div>')
+#
+# new_section = (
+#     '<section id="publications">\n'
+#     '  <h2>Publications</h2>\n'
+#     '  <div class="publications">\n'
+#     + "\n".join(blocks) + '\n'
+#     '  </div>\n'
+#     '</section>'
+# )
+#
+#
+# # ──────────────── 4. вставляем в index.html ────────────────
+# html_src = INDEX_HTML.read_text(encoding="utf-8")
+# updated = re.sub(
+#     r'<section[^>]*id=["\']publications["\'][\s\S]*?</section>',
+#     new_section,
+#     html_src,
+#     flags=re.IGNORECASE | re.DOTALL,
+# )
+#
+# if updated != html_src:
+#     INDEX_HTML.write_text(updated, encoding="utf-8")
+#     print("✅  index.html updated")
+# else:
+#     print("ℹ️  index.html уже содержит свежий блок – изменений нет")
+
+# ────────── 3) формируем HTML-блок ──────────
 blocks: List[str] = []
 for p in publications:
     link = best_link(p)
@@ -134,19 +181,19 @@ for p in publications:
 
     blocks.append(f'    <div class="pub-entry"><p>{cite}</p></div>')
 
-new_section = (
-    '<section id="publications">\n'
-    '  <h2>Publications</h2>\n'
-    '  <div class="publications">\n'
-    + "\n".join(blocks) + '\n'
-    '  </div>\n'
+# Гарантируем правильное закрытие секции
+new_section = '\n'.join([
+    '<section id="publications">',
+    '  <h2>Publications</h2>',
+    '  <div class="publications">',
+    *blocks,
+    '  </div>',
     '</section>'
-)
+])
 
-
-# ──────────────── 4. вставляем в index.html ────────────────
+# ────────── 4) вставляем в index.html ──────────
 html_src = INDEX_HTML.read_text(encoding="utf-8")
-updated = re.sub(
+updated  = re.sub(
     r'<section[^>]*id=["\']publications["\'][\s\S]*?</section>',
     new_section,
     html_src,
