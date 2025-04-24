@@ -8,7 +8,7 @@
     "number": "3",
     "pages": "419a-420a",
     "publisher": "Elsevier",
-    "abstract": "Tuesday, February 18, 2025 419a structures and molecular analyses of RECC1 and RECC2, the multienzyme complexes that orchestrate the cascade of editing reactions. Our findings reveal that RECCs possess distinct heterotetrameric cores composed of active and inactive RNase III endonucleases, which recognize gRNA-mRNA hybrids. Although the cores bind double-stranded RNAs in similar orientations, auxiliary zinc finger domains distinguish the secondary structures at deletion and insertion sites, while asymmetry in the endonucleolytic active centers directs the selection of scissile bonds. Peripheral heterotetramers of largely disordered oligonucleotide-binding (OB-fold) proteins flexibly attach exonuclease, TUTase, and ligase enzymatic subunits to the core. An embedded tRNA locks a core-peripheral interface in both complexes. This architecture facilitates the trimming or extension of cleaved mRNA …",
+    "citation": "Biophysical Journal 124 (3), 419a-420a, 2025",
     "num_citations": 0,
     "pub_url": "https://www.cell.com/biophysj/abstract/S0006-3495(24)02978-3"
   },
@@ -21,7 +21,7 @@
     "number": "7",
     "pages": "930-940. e3",
     "publisher": "Elsevier",
-    "abstract": "3-Methylcrotonyl-CoA carboxylase (MCC) catalyzes the two-step, biotin-dependent production of 3-methylglutaconyl-CoA, an essential intermediate in leucine catabolism. Given the critical metabolic role of MCC, deficiencies in this enzyme lead to organic aciduria, while its overexpression is linked to tumor development. MCC is a dodecameric enzyme composed of six copies of each α- and β-subunit. We present the cryo-EM structure of the endogenous MCC holoenzyme from Trypanosoma brucei in a non-filamentous state at 2.4 Å resolution. Biotin is covalently bound to the biotin carboxyl carrier protein domain of α-subunits and positioned in a non-canonical pocket near the active site of neighboring β-subunit dimers. Moreover, flexibility of key residues at α-subunit interfaces and loops enables pivoting of α-subunit trimers to partly reduce the distance between α- and β-subunit active sites, required for MCC …",
+    "citation": "Structure 32 (7), 930-940. e3, 2024",
     "num_citations": 1,
     "pub_url": "https://www.cell.com/structure/abstract/S0969-2126(24)00092-3"
   },
@@ -34,7 +34,7 @@
     "number": "1",
     "pages": "100-110. e4",
     "publisher": "Elsevier",
-    "abstract": "3-methylcrotonyl-CoA carboxylase (MCC) is a biotin-dependent mitochondrial enzyme necessary for leucine catabolism in most organisms. While the crystal structure of recombinant bacterial MCC has been characterized, the structure and potential polymerization of native MCC remain elusive. Here, we discovered that native MCC from Leishmania tarentolae (LtMCC) forms filaments, and determined the structures of different filament regions at 3.4, 3.9, and 7.3 Å resolution using cryoEM. α6β6 LtMCCs assemble in a twisted-stacks architecture, manifesting as supramolecular rods up to 400 nm. Filamentous LtMCCs bind biotin non-covalently and lack coenzyme A. Filaments elongate by stacking α6β6 LtMCCs onto the exterior α-trimer of the terminal LtMCC. This stacking immobilizes the biotin carboxylase domains, sequestering the enzyme in an inactive state. Our results support a new model for LtMCC catalysis …",
+    "citation": "Structure 31 (1), 100-110. e4, 2023",
     "num_citations": 15,
     "pub_url": "https://www.cell.com/structure/fulltext/S0969-2126(22)00486-5"
   },
@@ -47,7 +47,7 @@
     "number": "6653",
     "pages": "eadg4725",
     "publisher": "American Association for the Advancement of Science",
-    "abstract": "In Trypanosoma brucei, the editosome, composed of RNA-editing substrate-binding complex (RESC) and RNA-editing catalytic complex (RECC), orchestrates guide RNA (gRNA)–programmed editing to recode cryptic mitochondrial transcripts into messenger RNAs (mRNAs). The mechanism of information transfer from gRNA to mRNA is unclear owing to a lack of high-resolution structures for these complexes. With cryo–electron microscopy and functional studies, we have captured gRNA-stabilizing RESC-A and gRNA-mRNA–binding RESC-B and RESC-C particles. RESC-A sequesters gRNA termini, thus promoting hairpin formation and blocking mRNA access. The conversion of RESC-A into RESC-B or -C unfolds gRNA and allows mRNA selection. The ensuing gRNA-mRNA duplex protrudes from RESC-B, likely exposing editing sites to RECC-catalyzed cleavage, uridine insertion or deletion, and ligation. Our …",
+    "citation": "Science 381 (6653), eadg4725, 2023",
     "num_citations": 12,
     "pub_url": "https://www.science.org/doi/abs/10.1126/science.adg4725"
   },
@@ -60,7 +60,7 @@
     "number": "",
     "pages": "100088",
     "publisher": "Elsevier",
-    "abstract": "Propionyl-CoA carboxylase (PCC) is a multienzyme complex consisting of up to six α-subunits and six β-subunits. Belonging to a metabolic pathway converging on the citric acid cycle, it is present in most forms of life and irregularities in its assembly lead to serious illness in humans, known as propionic acidemia. Here, we report the cryogenic electron microscopy (cryoEM) structures and assembly of different oligomeric isomers of endogenous PCC from the parasitic protozoan Leishmania tarentolae (LtPCC). These structures and their statistical distribution reveal the mechanics of PCC assembly and disassembly at equilibrium. We show that, in solution, endogenous LtPCC β-subunits form stable homohexamers, to which different numbers of α-subunits attach. Sorting LtPCC particles into seven classes (i.e., oligomeric formulae α0β6, α1β6, α2β6, α3β6, α4β6, α5β6, α6β6) enables formulation of a model for PCC …",
+    "citation": "Journal of Structural Biology: X 7, 100088, 2023",
     "num_citations": 8,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S2590152423000041"
   },
@@ -73,7 +73,7 @@
     "number": "8",
     "pages": "1243-1254",
     "publisher": "Cold Spring Harbor Lab",
-    "abstract": "Following transcription, tRNAs undergo a series of processing and modification events to become functional adaptors in protein synthesis. Eukaryotes have also evolved intracellular transport systems whereby nucleus-encoded tRNAs may travel out and into the nucleus. In trypanosomes, nearly all tRNAs are also imported from the cytoplasm into the mitochondrion, which lacks tRNA genes. Differential subcellular localization of the cytoplasmic splicing machinery and a nuclear enzyme responsible for queuosine modification at the anticodon “wobble” position appear to be important quality control mechanisms for tRNATyr, the only intron-containing tRNA in T. brucei. Since tRNA-guanine transglycosylase (TGT), the enzyme responsible for Q formation, cannot act on an intron-containing tRNA, retrograde nuclear transport is an essential step in maturation. Unlike maturation/processing pathways, the general …",
+    "citation": "RNA 29 (8), 1243-1254, 2023",
     "num_citations": 1,
     "pub_url": "https://rnajournal.cshlp.org/content/29/8/1243.short"
   },
@@ -86,7 +86,7 @@
     "number": "",
     "pages": "2023.11. 27.568864",
     "publisher": "Cold Spring Harbor Laboratory",
-    "abstract": "3-methylcrotonyl-CoA carboxylase (MCC) catalyzes the two-step, biotin-dependent production of 3-methylglutaconyl-CoA, an essential intermediate in leucine catabolism. Given its critical metabolic role, deficiencies in this enzyme associate with organic aciduria, while its overexpression is linked to tumor development. MCC is a dodecameric enzyme composed of six copies of each α- and β-subunit. We present the cryo-EM structure of the endogenous MCC holoenzyme from Trypanosoma brucei in its soluble, non-filamentous state at 2.5 Å resolution. We unambiguously observe the position of biotin, covalently-bound to the BBCP domain of α-subunits and occupying a novel binding pocket next to the active site of a neighboring β-subunit dimer. Moreover, flexibility of key residues at the α/α- and α/β-subunit interfaces enables pivoting of α-subunit trimers to sequentially approach the otherwise distant active sites for the two steps in MCC catalysis. Our results provide a structural framework to understand the enzymatic mechanism of eukaryotic MCCs and assist drug discovery against trypanosome infections.",
+    "citation": "bioRxiv, 2023.11. 27.568864, 2023",
     "num_citations": 0,
     "pub_url": "https://www.biorxiv.org/content/10.1101/2023.11.27.568864.abstract"
   },
@@ -99,7 +99,7 @@
     "number": "6652",
     "pages": "1320-1321",
     "publisher": "American Association for the Advancement of Science",
-    "abstract": "Transmitted by insect vectors, human African trypanosomiasis (HAT), Chagas disease, and leishmaniasis cause millions of infections, which are often fatal unless treated with toxic drugs. Although there are promising new therapeutics for HAT , development of reliable, safe, and affordable drugs for Chagas disease and leishmaniasis remains challenging. On page 1349 of this issue, Rao et al.  introduce cyanotriazoles (CTs), a new class of compounds with potent and broad trypanocidal activity. These covalent inhibitors of topoisomerase II, an enzyme involved in nuclear DNA replication, show high efficacy in clearing trypanosomes and leishmania parasites from infected animals, efficient tissue distribution, and low toxicity in the mammalian host. Acting on a different target than those of existing interventions, these drug candidates bring the possibility of eradication and effective management of many neglected …",
+    "citation": "Science 380 (6652), 1320-1321, 2023",
     "num_citations": 0,
     "pub_url": "https://www.science.org/doi/abs/10.1126/science.adi5925"
   },
@@ -112,7 +112,7 @@
     "number": "",
     "pages": "2022.07. 06.498705",
     "publisher": "Cold Spring Harbor Laboratory",
-    "abstract": "In the mitochondrial genome of kinetoplastids, the targeted insertion and deletion of uridine in cryptic mRNA is essential to generate functional protein-coding mRNAs, but such process leads to a highly hetergenous and complex RNA population. Few tools were developped to perform alignment based on a T depleted strategy for such mRNA population, however to our knowledge no downstream analysis tool is available so far to allow easy data processing and interpretation. Here, we fill this gap with the T-less-Alignment-Toolkit, which provides useful functions such as duplication removal with UMI, alignment strandness analysis, statistical summary and visualization.Scripts and toolkits can be downloaded at https://gitee.com/Zhanglab/tless-alignment-toolkit",
+    "citation": "bioRxiv, 2022.07. 06.498705, 2022",
     "num_citations": 0,
     "pub_url": "https://www.biorxiv.org/content/10.1101/2022.07.06.498705.abstract"
   },
@@ -125,7 +125,7 @@
     "number": "3",
     "pages": "e1638",
     "publisher": "John Wiley & Sons, Inc.",
-    "abstract": "Unicellular parasites Trypanosoma brucei spp. cause African human and animal trypanosomiasis, a spectrum of diseases that jeopardize public health and afflict the economy in sub‐Saharan Africa. These hemoflagellates are distinguished by a single mitochondrion, which contains a kinetoplast nucleoid composed of DNA and histone‐like proteins. Kinetoplast DNA (kDNA) represents a densely packed network of interlinked relaxed circular molecules: a few ~23‐kb maxicircles encoding ribosomal RNAs (rRNAs) and proteins, and approximately 5,000 1‐kb minicircles bearing guide RNA (gRNA) genes. The transcription start site defines the mRNA's 5′ terminus while the primary RNA is remodeled into a monocistronic messenger by 3′–5′ exonucleolytic trimming, 5′ and 3′ end modifications, and, in most cases, by internal U‐insertion/deletion editing. Ribosomal and guide RNA precursors are also trimmed …",
+    "citation": "Wiley Interdisciplinary Reviews: RNA 12 (3), e1638, 2021",
     "num_citations": 12,
     "pub_url": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wrna.1638"
   },
@@ -138,7 +138,7 @@
     "number": "",
     "pages": "83-109",
     "publisher": "Academic Press",
-    "abstract": "Unicellular parasite Trypanosoma brucei maintains an elaborate mitochondrial mRNA processing pathway including 3′-5′ exonucleolytic trimming of primary precursors, 5′ and 3′ modifications, and, in most cases, massive U-insertion/deletion editing. Whereas the role of editing in restoring protein coding sequence is apparent, recent developments suggest that terminal modifications are equally critical for generating a stable translationally competent messenger. The enzymatic activities responsible for 5′ pyrophosphate hydrolysis, 3′ adenylation and uridylation, and 3′-5′ decay are positively and negatively regulated by pentatricopeptide repeat-containing (PPR) proteins. These sequence-specific RNA binding factors typically contain arrays of 35-amino acid repeats each of which recognizes a single nucleotide. Here, we introduce a combinatorial CTS affinity tag, which underlies a suite of methods for …",
+    "citation": "Methods in enzymology 658, 83-109, 2021",
     "num_citations": 1,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0076687921002639"
   },
@@ -151,7 +151,7 @@
     "number": "4",
     "pages": "337-355",
     "publisher": "Elsevier",
-    "abstract": "Trypanosoma brucei spp. cause African human and animal trypanosomiasis, a burden on health and economy in Africa. These hemoflagellates are distinguished by a kinetoplast nucleoid containing mitochondrial DNAs of two kinds: maxicircles encoding ribosomal RNAs (rRNAs) and proteins and minicircles bearing guide RNAs (gRNAs) for mRNA editing. All RNAs are produced by a phage-type RNA polymerase as 3′ extended precursors, which undergo exonucleolytic trimming. Most pre-mRNAs proceed through 3′ adenylation, uridine insertion/deletion editing, and 3′ A/U-tailing. The rRNAs and gRNAs are 3′ uridylated. Historically, RNA editing has attracted major research effort, and recently essential pre- and postediting processing events have been discovered. Here, we classify the key players that transform primary transcripts into mature molecules and regulate their function and turnover.",
+    "citation": "Trends in parasitology 36 (4), 337-355, 2020",
     "num_citations": 83,
     "pub_url": "https://www.cell.com/trends/parasitology/fulltext/S1471-4922(20)30016-7?dgcid=raven_jbs_aip_email"
   },
@@ -164,7 +164,7 @@
     "number": "15",
     "pages": "8645-8662",
     "publisher": "Oxford University Press",
-    "abstract": "In Trypanosoma brucei, mitochondrial pre-mRNAs undergo 3′-5′ exonucleolytic processing, 3′ adenylation and uridylation, 5′ pyrophosphate removal, and, often, U-insertion/deletion editing. The 3′ modifications are modulated by pentatricopeptide repeat (PPR) Kinetoplast Polyadenylation Factors (KPAFs). We have shown that KPAF3 binding to the 3′ region stabilizes properly trimmed transcripts and stimulates their A-tailing by KPAP1 poly(A) polymerase. Conversely, poly(A) binding KPAF4 shields the nascent A-tail from uridylation and decay thereby protecting pre-mRNA upon KPAF3 displacement by editing. While editing concludes in the 5′ region, KPAF1/2 dimer induces A/U-tailing to activate translation. Remarkably, 5′ end recognition and pyrophosphate hydrolysis by the PPsome complex also contribute to mRNA stabilization. Here, we demonstrate that KPAF4 functions as a heterodimer …",
+    "citation": "Nucleic acids research 48 (15), 8645-8662, 2020",
     "num_citations": 10,
     "pub_url": "https://academic.oup.com/nar/article-abstract/48/15/8645/5866418"
   },
@@ -177,7 +177,7 @@
     "number": "1",
     "pages": "146",
     "publisher": "Nature Publishing Group UK",
-    "abstract": "In Trypanosoma brucei, most mitochondrial mRNAs undergo editing, and 3′ adenylation and uridylation. The internal sequence changes and terminal extensions are coordinated: pre-editing addition of the short (A) tail protects the edited transcript against 3′-5′ degradation, while post-editing A/U-tailing renders mRNA competent for translation. Participation of a poly(A) binding protein (PABP) in coupling of editing and 3′ modification processes has been inferred, but its identity and mechanism of action remained elusive. We report identification of KPAF4, a pentatricopeptide repeat-containing PABP which sequesters the A-tail and impedes mRNA degradation. Conversely, KPAF4 inhibits uridylation of A-tailed transcripts and, therefore, premature A/U-tailing of partially-edited mRNAs. This quality check point likely prevents translation of incompletely edited mRNAs. We also find that RNA editing substrate …",
+    "citation": "Nature Communications 10 (1), 146, 2019",
     "num_citations": 17,
     "pub_url": "https://www.nature.com/articles/s41467-018-08137-2"
   },
@@ -190,7 +190,7 @@
     "number": "44",
     "pages": "E10323-E10332",
     "publisher": "National Academy of Sciences",
-    "abstract": "Mitochondrial genomes are often transcribed into polycistronic RNAs punctuated by tRNAs whose excision defines mature RNA boundaries. Although kinetoplast DNA lacks tRNA genes, it is commonly held that in Trypanosoma brucei the monophosphorylated 5′ ends of functional molecules typify precursor partitioning by an unknown endonuclease. On the contrary, we demonstrate that individual mRNAs and rRNAs are independently synthesized as 3′-extended precursors. The transcription-defined 5′ terminus is converted into a monophosphorylated state by the pyrophosphohydrolase complex, termed the “PPsome.” Composed of the MERS1 NUDIX enzyme, the MERS2 pentatricopeptide repeat RNA-binding subunit, and MERS3 polypeptide, the PPsome binds to specific sequences near mRNA 5′ termini. Most guide RNAs lack PPsome-recognition sites and remain triphosphorylated. The RNA-editing …",
+    "citation": "Proceedings of the National Academy of Sciences 115 (44), E10323-E10332, 2018",
     "num_citations": 25,
     "pub_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1808981115"
   },
@@ -203,7 +203,7 @@
     "number": "",
     "pages": "26-26",
     "publisher": "",
-    "abstract": "",
+    "citation": "Proceedings of Ribosomes and Translation meeting, 26-26, 2018",
     "num_citations": 0,
     "pub_url": "https://elibrary.ru/item.asp?id=37059706"
   },
@@ -216,7 +216,7 @@
     "number": "",
     "pages": "456418",
     "publisher": "Cold Spring Harbor Laboratory",
-    "abstract": "In Trypanosoma brucei, most mitochondrial mRNAs undergo U-insertion/deletion editing, and 3′ adenylation and uridylation. The internal sequence changes and terminal extensions are coordinated: Pre-editing addition of the short (A) tail protects the edited transcript against 3′-5′ degradation, while post-editing A/U-tailing renders mRNA competent for ribosome recruitment. Participation of a poly(A) binding protein (PABP) in coupling of editing and 3′ modification processes has been inferred, but its identity and mechanism of action remained elusive. We report identification of KPAF4, a pentatricopeptide repeat-containing PABP which sequesters the A-tail and impedes exonucleolytic degradation. Conversely, KPAF4 inhibits uridylation of A-tailed transcripts and, therefore, premature A/U-tailing of partially-edited mRNAs. This quality check point prevents translation of incompletely edited mRNAs. Our findings also implicate the RNA editing substrate binding complex (RESC) in mediating the interaction between the 5′ end bound pyrophosphohydrolase MERS1 and 3′ end associated KPAF4 to enable mRNA circularization. This event is critical for transcript stability during the editing process.",
+    "citation": "bioRxiv, 456418, 2018",
     "num_citations": 0,
     "pub_url": "https://www.biorxiv.org/content/10.1101/456418.abstract"
   },
@@ -229,7 +229,7 @@
     "number": "16",
     "pages": "2435-2454",
     "publisher": "",
-    "abstract": "In Trypanosoma brucei, most mitochondrial mRNAs undergo internal changes by RNA editing and 3′ end modifications. The temporally separated and functionally distinct modifications are manifested by adenylation prior to editing, and by post‐editing extension of a short A‐tail into a long A/U‐heteropolymer. The A‐tail stabilizes partially and fully edited mRNAs, while the A/U‐tail enables mRNA binding to the ribosome. Here, we identify an essential pentatricopeptide repeat‐containing RNA binding protein, kinetoplast polyadenylation factor 3 (KPAF3), and demonstrate its role in protecting pre‐mRNA against degradation by the processome. We show that KPAF3 recruits KPAP1 poly(A) polymerase to the 3′ terminus, thus leading to pre‐mRNA stabilization, or decay depending on the occurrence and extent of editing. In vitro, KPAF3 stimulates KPAP1 activity and inhibits mRNA uridylation by RET1 TUTase. Our …",
+    "citation": "The EMBO journal 36 (16), 2435-2454, 2017",
     "num_citations": 24,
     "pub_url": "https://www.embopress.org/doi/abs/10.15252/embj.201796808"
   },
@@ -242,7 +242,7 @@
     "number": "16",
     "pages": "2435-2454",
     "publisher": "",
-    "abstract": "In Trypanosoma brucei, most mitochondrial mRNAs undergo internal changes by RNA editing and 3′ end modifications. The temporally separated and functionally distinct modifications are manifested by adenylation prior to editing, and by post-editing extension of a short A-tail into a long A/U-heteropolymer. The A-tail stabilizes partially and fully edited mRNAs, while the A/U-tail enables mRNA binding to the ribosome. Here, we identify an essential pentatricopeptide repeat-containing RNA binding protein, kinetoplast polyadenylation factor 3 (KPAF3), and demonstrate its role in protecting pre-mRNA against degradation by the processome. We show that KPAF3 recruits KPAP1 poly(A) polymerase to the 3' terminus, thus leading to pre-mRNA stabilization, or decay depending on the occurrence and extent of editing. In vitro, KPAF3 stimulates KPAP1 activity and inhibits mRNA uridylation by RET1 TUTase. Our …",
+    "citation": "",
     "num_citations": 0,
     "pub_url": "https://www.cabidigitallibrary.org/doi/full/10.5555/20173356783"
   },
@@ -255,7 +255,7 @@
     "number": "2",
     "pages": "144-156",
     "publisher": "Elsevier",
-    "abstract": "RNA editing is a process that alters DNA-encoded sequences and is distinct from splicing, 5′ capping, and 3′ additions. In 30 years since editing was discovered in mitochondria of trypanosomes, several functionally and evolutionarily unrelated mechanisms have been described in eukaryotes, archaea, and viruses. Editing events are predominantly post-transcriptional and include nucleoside insertions and deletions, and base substitutions and modifications. Here, we review the mechanism of uridine insertion/deletion mRNA editing in kinetoplastid protists typified by Trypanosoma brucei. This type of editing corrects frameshifts, introduces translation punctuation signals, and often adds hundreds of uridines to create protein-coding sequences. We focus on protein complexes responsible for editing reactions and their interactions with other elements of the mitochondrial gene expression pathway.",
+    "citation": "Trends in parasitology 32 (2), 144-156, 2016",
     "num_citations": 72,
     "pub_url": "https://www.cell.com/trends/parasitology/abstract/S1471-4922(15)00215-9"
   },
@@ -268,7 +268,7 @@
     "number": "3",
     "pages": "364-378",
     "publisher": "Elsevier",
-    "abstract": "Small, noncoding RNA biogenesis typically involves cleavage of structured precursor by RNase III-like endonucleases. However, guide RNAs (gRNAs) that direct U-insertion/deletion mRNA editing in mitochondria of trypanosomes maintain 5′ triphosphate characteristic of the transcription initiation and possess a U-tail indicative of 3′ processing and uridylation. Here, we identified a protein complex composed of RET1 TUTase, DSS1 3′-5′ exonuclease, and three additional subunits. This complex, termed mitochondrial 3′ processome (MPsome), is responsible for primary uridylation of ∼800 nt gRNA precursors, their processive degradation to a mature size of 40–60 nt, and secondary U-tail addition. Both strands of the gRNA gene are transcribed into sense and antisense precursors of similar lengths. Head-to-head hybridization of these transcripts blocks symmetrical 3′-5′ degradation at a fixed distance …",
+    "citation": "Molecular cell 61 (3), 364-378, 2016",
     "num_citations": 38,
     "pub_url": "https://www.cell.com/molecular-cell/fulltext/S1097-2765(16)00005-8"
   },
@@ -281,7 +281,7 @@
     "number": "6",
     "pages": "1043-1058",
     "publisher": "",
-    "abstract": "Mitochondrial ribosomes of Trypanosoma brucei are composed of 9S and 12S rRNAs, eubacterial‐type ribosomal proteins, polypeptides lacking discernible motifs and approximately 20 pentatricopeptide repeat (PPR) RNA binding proteins. Several PPRs also populate the polyadenylation complex; among these, KPAF1 and KPAF2 function as general mRNA 3′ adenylation/uridylation factors. The A/U‐tail enables mRNA binding to the small ribosomal subunit and is essential for translation. The presence of A/U‐tail also correlates with requirement for translation of certain mRNAs in mammalian and insect parasite stages. Here, we inquired whether additional PPRs activate translation of individual mRNAs. Proteomic analysis identified KRIPP1 and KRIPP8 as components of the small ribosomal subunit in mammalian and insect forms, but also revealed their association with the polyadenylation complex in the latter …",
+    "citation": "Molecular microbiology 99 (6), 1043-1058, 2016",
     "num_citations": 36,
     "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/mmi.13287"
   },
@@ -294,7 +294,7 @@
     "number": "11",
     "pages": "1078-1083",
     "publisher": "Taylor & Francis",
-    "abstract": "RNA uridylation is a significant transcriptome-shaping factor in protists, fungi, metazoans, and plants. The 3′ U-additions are catalyzed by terminal uridyltransferases (TUTases), a diverse group of enzymes that along with non-canonical poly(A) polymerases form a distinct group in the superfamily of DNA polymerase β-like nucleotidyl transferases. Within and across studied organisms and subcellular compartments, TUTases differ in nucleotide triphosphate selectivity, interacting partners, and RNA targets. A general premise linking RNA uridylation to 3′–5′ degradation received support from several studies of small RNAs and mRNA turnover. However, recent work on kinetoplastid protists typified by Trypanosoma brucei provides evidence that RNA uridylation may play a more nuanced role in generating functional small RNAs. In this pathogen's mitochondrion, most mRNAs are internally edited by U-insertions …",
+    "citation": "RNA biology 13 (11), 1078-1083, 2016",
     "num_citations": 21,
     "pub_url": "https://www.tandfonline.com/doi/abs/10.1080/15476286.2016.1229736"
   },
@@ -307,7 +307,7 @@
     "number": "",
     "pages": "gkw917",
     "publisher": "Oxford University Press",
-    "abstract": "Terminal uridyltransferases (TUTases) execute 3΄ RNA uridylation across protists, fungi, metazoan and plant species. Uridylation plays a particularly prominent role in RNA processing pathways of kinetoplastid protists typified by the causative agent of African sleeping sickness, Trypanosoma brucei. In mitochondria of this pathogen, most mRNAs are internally modified by U-insertion/deletion editing while guide RNAs and rRNAs are U-tailed. The founding member of TUTase family, RNA editing TUTase 1 (RET1), functions as a subunit of the 3΄ processome in uridylation of gRNA precursors and mature guide RNAs. Along with KPAP1 poly(A) polymerase, RET1 also participates in mRNA translational activation. RET1 is divergent from human TUTases and is essential for parasite viability in the mammalian host and the insect vector. Given its robust in vitro activity, RET1 represents an attractive target for …",
+    "citation": "Nucleic acids research, gkw917, 2016",
     "num_citations": 16,
     "pub_url": "https://academic.oup.com/nar/article-abstract/44/22/10862/2290891"
   },
@@ -320,7 +320,7 @@
     "number": "",
     "pages": "23-33",
     "publisher": "Academic Press",
-    "abstract": "Mitochondrial U-insertion/deletion mRNA editing is carried out by two principal multiprotein assemblies, enzymatic RNA editing core (RECC) and RNA editing substrate binding (RESC) complexes, and a plethora of auxiliary factors. An integral part of mitochondrial gene expression, editing receives inputs from primary mRNA and gRNA precursor processing pathways, and generates substrates for mRNA polyadenylation and translation. Although nearly all RECC-embedded enzymes have been implicated in specific editing reactions, the majority of proteins that populate the RESC are also essential for generating edited mRNAs. However, lack of recognizable motifs in RESC subunits limits the prowess of bioinformatics in guiding biochemical experiments and elucidating their specific biological functions. In this chapter, we describe a generic workflow for investigating mitochondrial mRNA editing in Trypanosoma …",
+    "citation": "Methods 107, 23-33, 2016",
     "num_citations": 12,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S1046202316300548"
   },
@@ -333,7 +333,7 @@
     "number": "",
     "pages": "76-86",
     "publisher": "Elsevier",
-    "abstract": "We studied the intramitochondrial localization of several multiprotein complexes involved in U-insertion/deletion RNA editing in trypanosome mitochondria. The editing complexes are located in one or two antipodal nodes adjacent to the kinetoplast DNA (kDNA) disk, which are distinct from but associated with the minicircle catenation nodes. In some cases the proteins are in a bilateral sheet configuration. We also found that mitoribosomes have a nodal configuration. This type of organization is consistent with evidence for protein and RNA interactions of multiple editing complexes to form an ~ 40S editosome and also an interaction of editosomes with mitochondrial ribosomes.",
+    "citation": "Mitochondrion 25, 76-86, 2015",
     "num_citations": 8,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S1567724915300301"
   },
@@ -346,7 +346,7 @@
     "number": "",
     "pages": "125-131",
     "publisher": "Elsevier",
-    "abstract": "Mitochondrial mRNA editing in trypanosomes is a posttranscriptional processing pathway thereby uridine residues (Us) are inserted into, or deleted from, messenger RNA precursors. By correcting frameshifts, introducing start and stop codons, and often adding most of the coding sequence, editing restores open reading frames for mitochondrially-encoded mRNAs. There can be hundreds of editing events in a single pre-mRNA, typically spaced by few nucleotides, with U-insertions outnumbering U-deletions by approximately 10-fold. The mitochondrial genome is composed of ∼50 maxicircles and thousands of minicircles. Catenated maxi- and minicircles are packed into a dense structure called the kinetoplast; maxicircles yield rRNA and mRNA precursors while guide RNAs (gRNAs) are produced predominantly from minicircles, although varying numbers of maxicircle-encoded gRNAs have been identified in …",
+    "citation": "Biochimie 100, 125-131, 2014",
     "num_citations": 97,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0300908414000078"
   },
@@ -359,7 +359,7 @@
     "number": "23",
     "pages": "4329-4342",
     "publisher": "Taylor & Francis",
-    "abstract": "Enzymes embedded into the RNA editing core complex (RECC) catalyze the U-insertion/deletion editing cascade to generate open reading frames in trypanosomal mitochondrial mRNAs. The sequential reactions of mRNA cleavage, U-addition or removal, and ligation are directed by guide RNAs (gRNAs). We combined proteomic, genetic, and functional studies with sequencing of total and complex-bound RNAs to define a protein particle responsible for the recognition of gRNAs and pre-mRNA substrates, editing intermediates, and products. This approximately 23-polypeptide tripartite assembly, termed the RNA editing substrate binding complex (RESC), also functions as the interface between mRNA editing, polyadenylation, and translation. Furthermore, we found that gRNAs represent only a subset of small mitochondrial RNAs, and yet an inexplicably high fraction of them possess 3′ U-tails, which correlates …",
+    "citation": "Molecular and cellular biology 34 (23), 4329-4342, 2014",
     "num_citations": 77,
     "pub_url": "https://www.tandfonline.com/doi/abs/10.1128/mcb.01075-14"
   },
@@ -372,7 +372,7 @@
     "number": "11",
     "pages": "1679-1688",
     "publisher": "Taylor & Francis",
-    "abstract": "Mitochondrial ribosomes of Trypanosoma brucei are composed of 9S and 12S rRNAs, which are encoded by the kinetoplast genome, and more than 150 proteins encoded in the nucleus and imported from the cytoplasm. However, a single ribosomal protein RPS12 is encoded by the kinetoplast DNA (kDNA) in all trypanosomatid species examined. As typical for these organisms, the gene itself is cryptic and its transcript undergoes an extensive U-insertion/deletion editing. An evolutionary trend to reduce or eliminate RNA editing could be traced with other cryptogenes, but the invariably pan-edited RPS12 cryptogene is apparently spared. Here we inquired whether editing of RPS12 mRNA is essential for mitochondrial translation. By RNAi-mediated knockdowns of RNA editing complexes and inducible knock-in of a key editing enzyme in procyclic parasites, we could reversibly downregulate production of edited …",
+    "citation": "RNa Biology 10 (11), 1679-1688, 2013",
     "num_citations": 32,
     "pub_url": "https://www.tandfonline.com/doi/abs/10.4161/rna.26733"
   },
@@ -385,7 +385,7 @@
     "number": "9",
     "pages": "1495-1500",
     "publisher": "Taylor & Francis",
-    "abstract": "Mitochondrial genomes of trypanosomes are composed of catenated maxicircles and mini-circles that are densely packed into a nucleoprotein structure called the kinetoplast. Maxicircle DNA (~25 kb long, 20–50 copies) resembles a typical mitochondrial genome bearing rRNA and respiratory complex subunits genes, and also contains 12 cryptogenes whose transcripts require U-insertion/deletion editing to assemble protein-coding sequences. Production of guide RNAs for the editing process remains the only established function of mini-circle DNA (~1 kb, ~10000 copies). Although editing remains the most studied step in mRNA biogenesis, recent investigations illuminated complex nucleolytic processing and pre- and post-editing 3′ modification events that ultimately create translation-competent mRNAs. Key mRNA 3′ processing enzymes, such as KPAP1 poly(A) polymerase and RET1 TUTase, have been …",
+    "citation": "RNA biology 10 (9), 1495-1500, 2013",
     "num_citations": 26,
     "pub_url": "https://www.tandfonline.com/doi/abs/10.4161/rna.26215"
   },
@@ -398,7 +398,7 @@
     "number": "",
     "pages": "213-215",
     "publisher": "Academic Press",
-    "abstract": "Trypanosome RNA editing is the posttranscriptional insertion and deletion of uridine residues (Us) in mitochondrial transcripts to generate protein-coding mRNAs. This type of editing occurs in Trypanosoma, Leishmania, and related lower eukaryotes and is among few known examples of RNA-guided genetic information transfer. There can be hundreds of editing events in a single precursor messenger RNA (pre-mRNA), generally spaced a few nucleotides apart, with U insertions outnumbering U deletions by ∼10-fold more. In extensively edited mRNAs, over half the coding nucleotides can be Us that were added by editing. Some trypanosome mitochondrial mRNAs are edited only in certain regions, and still others are not edited at all. In many edited mRNAs, the Us of the initiating AUG or terminating UAG and UAA codons are introduced by editing.",
+    "citation": "Academic Press, 2013",
     "num_citations": 0,
     "pub_url": "https://scholar.google.com/scholar?cluster=17226997094182766801&hl=en&oi=scholarr"
   },
@@ -411,7 +411,7 @@
     "number": "1",
     "pages": "106-117",
     "publisher": "Elsevier",
-    "abstract": "The majority of trypanosomal mitochondrial pre-mRNAs undergo massive uridine insertion/deletion editing, which creates open reading frames. Although the pre-editing addition of short 3′ A tails is known to stabilize transcripts during and after the editing, the processing event committing the fully edited mRNAs to translation remained unknown. Here, we show that a heterodimer of pentatricopeptide repeat-containing (PPR) proteins, termed kinetoplast polyadenylation/uridylation factors (KPAFs) 1 and 2, induces the postediting addition of A/U heteropolymers by KPAP1 poly(A) polymerase and RET1 terminal uridyltransferase. Edited transcripts bearing 200- to 300-nucleotide-long A/U tails, but not short A tails, were enriched in translating ribosomal complexes and affinity-purified ribosomal particles. KPAF1 repression led to a selective loss of A/U-tailed mRNAs and concomitant inhibition of protein synthesis. These …",
+    "citation": "Molecular cell 42 (1), 106-117, 2011",
     "num_citations": 138,
     "pub_url": "https://www.cell.com/molecular-cell/fulltext/S1097-2765(11)00134-1"
   },
@@ -424,7 +424,7 @@
     "number": "5",
     "pages": "669-685",
     "publisher": "John Wiley & Sons, Inc.",
-    "abstract": "RNA editing is a collective term referring to enzymatic processes that change RNA sequence apart from splicing, 5′ capping or 3′ extension. In this article, we focus on uridine insertion/deletion mRNA editing found exclusively in mitochondria of kinetoplastid protists. This type of editing corrects frameshifts, introduces start and stops codons, and often adds much of the coding sequence to create an open reading frame. The mitochondrial genome of trypanosomatids, the most extensively studied clade within the order Kinetoplastida, is composed of ∼50 maxicircles with limited coding capacity and thousands of minicircles. To produce functional mRNAs, a multitude of nuclear‐encoded factors mediate interactions of maxicircle‐encoded pre‐mRNAs with a vast repertoire of minicircle‐encoded guide RNAs. Editing reactions of mRNA cleavage, U‐insertions or U‐deletions, and ligation are catalyzed by the RNA …",
+    "citation": "Wiley Interdisciplinary Reviews: RNA 2 (5), 669-685, 2011",
     "num_citations": 102,
     "pub_url": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wrna.82"
   },
@@ -437,7 +437,7 @@
     "number": "7",
     "pages": "655-663",
     "publisher": "Elsevier Masson",
-    "abstract": "The mitochondrial genome of trypanosomes is composed of ∼50 maxicircles and thousands of minicircles. Maxi-(∼25 kb) and mini-(∼1 kb)circles are catenated and packed into a dense structure called a kinetoplast. Both types of circular DNA are transcribed by a phage-like RNA polymerase: maxicircles yield multicistronic rRNA and mRNA precursors, while guide RNA (gRNA) precursors are produced from minicircles. To function in mitochondrial translation, pre-mRNAs must undergo a nucleolytic processing and 3′ modifications, and often uridine insertion/deletion editing. gRNAs, which represent short (50–60 nt) RNAs directing editing reactions, are produced by 3′ nucleolytic processing of a much longer precursor followed by 3′ uridylation. Ribosomal RNAs are excised from precursors and their 3′ ends are also trimmed and uridylated. All tRNAs are imported from the cytoplasm and some are further …",
+    "citation": "Research in microbiology 162 (7), 655-663, 2011",
     "num_citations": 72,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S092325081100091X"
   },
@@ -450,7 +450,7 @@
     "number": "",
     "pages": "23-37",
     "publisher": "Humana Press",
-    "abstract": " In vivo mutational analysis is often required to characterize enzymes that function as subunits of the U-insertion/deletion RNA editing core complex (RECC) in mitochondria of Trypanosoma brucei. The mutations may skew phenotypic manifestation of a dominant negative overexpression if complex association is disrupted. Conditional knockouts and knock-ins of essential mitochondrial genes are time consuming and restricted to the bloodstream form parasites, thus limiting biochemical analysis. We have combined CODA (computationally optimized DNA assembly) technology with RNA interference to develop an iCODA inducible knock-in system for expeditious phenotype assessment and affinity purification of the RECC bearing a mutant subunit. For functional knock-in, the gene region targeted by RNAi is replaced with a synthetic sequence bearing at least one silent mutation per 12 contiguous …",
+    "citation": "RNA and DNA Editing: Methods and Protocols, 23-37, 2011",
     "num_citations": 9,
     "pub_url": "https://link.springer.com/protocol/10.1007/978-1-61779-018-8_2"
   },
@@ -463,7 +463,7 @@
     "number": "",
     "pages": "",
     "publisher": "Humana Press",
-    "abstract": "The recent expansion in diversity of RNA and DNA editing types has stimulated the development of many unique genetic, molecular, biochemical, and computational approaches to biological issues. In RNA and DNA Editing: Methods and Protocols, leading experts in the field introduce methods developed over the last few years to study editing substrates, mechanisms of specificity, and functions of RNA and DNA editing enzymes and complexes. Sections of the book are dedicated to state-of-the art techniques which enable investigation of uracil insertion/deletion RNA editing in mitochondrion of Trypanosoma brucei, adenosine to inosine RNA editing, cytidine to uracil RNA and DNA editing, as well as tRNA editing and RNA modifications. Written in the highly successful Methods in Molecular Biology™ series format, chapters include introductions to their respective topics, lists of the necessary materials and reagents …",
+    "citation": "Humana Press, 2011",
     "num_citations": 2,
     "pub_url": "https://link.springer.com/book/10.1007/978-1-61779-018-8"
   },
@@ -476,7 +476,7 @@
     "number": "6",
     "pages": "1555-1567",
     "publisher": "Taylor & Francis",
-    "abstract": "RNA uridylylation is critical for the expression of the mitochondrial genome in trypanosomes. Short U tails are added to guide RNAs and rRNAs, while long A/U heteropolymers mark 3′ ends of most mRNAs. Three divergent mitochondrial terminal uridylyl transferases (TUTases) are known: RET1 catalyzes guide RNA (gRNA) uridylylation, RET2 executes U insertion mRNA editing, and MEAT1 associates with the editosome-like complex. However, the activities responsible for 3′ uridylylation of rRNAs and mRNAs, and the roles of these modifications, are unclear. To dissect the functions of mitochondrial TUTases, we investigated the effects of their repression and overexpression on abundance, processing, 3′-end status, and in vivo stability of major mitochondrially encoded RNA classes. We show that RET1 adds U tails to gRNAs, rRNAs, and select mRNAs and contributes U's into A/U heteropolymers …",
+    "citation": "Molecular and cellular biology 30 (6), 1555-1567, 2010",
     "num_citations": 87,
     "pub_url": "https://www.tandfonline.com/doi/abs/10.1128/MCB.01281-09"
   },
@@ -489,7 +489,7 @@
     "number": "1",
     "pages": "2-6",
     "publisher": "Urban & Fischer",
-    "abstract": "Uridine insertion/deletion RNA editing in kinetoplastid mitochondria involves the participation of a number of ribonucleoprotein complexes which contain multiple proteins. There are currently multiple names to designate the major editing complex and the polypeptide components, which has led to confusion and lack of communication both within and outside this field. We urge that the field adapt a more unified nomenclature for the complexes and the component polypeptides and we present possible options.",
+    "citation": "Protist 161 (1), 2-6, 2010",
     "num_citations": 36,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S1434461009000790"
   },
@@ -502,7 +502,7 @@
     "number": "3",
     "pages": "464-475",
     "publisher": "Academic Press",
-    "abstract": "RNA uridylylation reactions catalyzed by terminal uridylyl transferases (TUTases) play critical roles in the formation of the mitochondrial transcriptome in trypanosomes. Two mitochondrial RNA editing TUTases have been described: RNA editing TUTase 1 catalyzes guide RNA, ribosomal RNA, and mRNA 3′-uridylylation, and RNA editing TUTase 2 acts as a subunit of the RNA editing core complex (also referred to as the 20S editosome) to perform guided U-insertion mRNA editing. Although RNA editing TUTase 1 and RNA editing TUTase 2 carry out distinct functions and possess dissimilar enzymatic properties, their catalytic N-terminal domain and base recognition C-terminal domain display a high degree of similarity, while their middle domains are less conserved. MEAT1 (mitochondrial editosome-like complex associated TUTase 1), which interacts with an editosome-like assembly and is exclusively U-specific …",
+    "citation": "Journal of molecular biology 399 (3), 464-475, 2010",
     "num_citations": 30,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0022283610003827"
   },
@@ -515,7 +515,7 @@
     "number": "5",
     "pages": "680-695",
     "publisher": "Academic Press",
-    "abstract": "Expression of the trypanosomal mitochondrial genome requires the insertion and deletion of uridylyl residues at specific sites in pre-mRNAs. RET2 terminal uridylyl transferase is an integral component of the RNA editing core complex (RECC) and is responsible for the guide-RNA-dependent U insertion reaction. By analyzing RNA-interference-based knock-in Trypanosoma brucei cell lines, purified editing complex, and individual protein, we have investigated RET2's association with the RECC. In addition, the U insertion activity exhibited by RET2 as an RECC subunit was compared with characteristics of the monomeric protein. We show that interaction of RET2 with RECC is accomplished via a protein–protein contact between its middle domain and a structural subunit, MP81. The recombinant RET2 catalyzes a faithful editing on gapped (precleaved) double-stranded RNA substrates, and this reaction requires an …",
+    "citation": "Journal of molecular biology 399 (5), 680-695, 2010",
     "num_citations": 20,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0022283610003256"
   },
@@ -528,7 +528,7 @@
     "number": "5",
     "pages": "696-706",
     "publisher": "Academic Press",
-    "abstract": "3′-Terminal uridylyl transferases (TUTases) selectively bind uridine 5′-triphosphate (UTP) and catalyze the addition of uridine 5′-monophosphate to the 3′-hydroxyl of RNA substrates in a template-independent manner. RNA editing TUTase 1 and RNA editing TUTase 2 (RET2) play central roles in uridine insertion/deletion RNA editing, which is an essential part of mitochondrial RNA processing in trypanosomes. Although the conserved N-terminal (catalytic) domain and C-terminal (nucleotide base recognition) domain are readily distinguished in all known TUTases, nucleotide specificity, RNA substrate preference, processivity, quaternary structures, and auxiliary domains vary significantly among enzymes of divergent biological functions. RET2 acts as a subunit of the RNA editing core complex to carry out guide-RNA-dependent U-insertion into mitochondrial mRNA. By correlating mutational effects on RET2 …",
+    "citation": "Journal of molecular biology 399 (5), 696-706, 2010",
     "num_citations": 13,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0022283610004092"
   },
@@ -541,7 +541,7 @@
     "number": "7",
     "pages": "1322-1337",
     "publisher": "Cold Spring Harbor Lab",
-    "abstract": "Expression of mitochondrial genomes in Kinetoplastida protists requires massive uracil insertion/deletion mRNA editing. The cascade of editing reactions is accomplished by a multiprotein complex, the 20S editosome, and is directed by trans-acting guide RNAs. Two distinct RNA terminal uridylyl transferases (TUTases), RNA Editing TUTase 1 (RET1) and RNA Editing TUTase 2 (RET2), catalyze 3′ uridylylation of guide RNAs and U-insertions into the mRNAs, respectively. RET1 is also involved in mitochondrial mRNA turnover and participates in numerous heterogeneous complexes; RET2 is an integral part of the 20S editosome, in which it forms a U-insertion subcomplex with zinc finger protein MP81 and RNA editing ligase REL2. Here we report the identification of a third mitochondrial TUTase from Trypanosoma brucei. The mitochondrial editosome-like complex associated TUTase (MEAT1) interacts with a 20S …",
+    "citation": "Rna 15 (7), 1322-1337, 2009",
     "num_citations": 33,
     "pub_url": "https://rnajournal.cshlp.org/content/15/7/1322.short"
   },
@@ -554,7 +554,7 @@
     "number": "1",
     "pages": "66-73",
     "publisher": "Elsevier",
-    "abstract": "Regulation of nuclear genome expression in Trypanosoma brucei is critical for this protozoan parasite’s successful transition between its vertebrate and invertebrate host environments. The canonical eukaryotic circuits such as modulation of transcription initiation, mRNA splicing and polyadenylation appear to be nearly non-existent in T. brucei suggesting that the transcriptome is primarily defined by mRNA turnover. Our previous work has highlighted sequence similarities between terminal RNA uridylyl transferases (TUTases) and non-canonical poly(A) polymerases, which are widely implicated in regulating nuclear, cytoplasmic and organellar RNA decay throughout the eukaryotic lineage. Here, we have continued characterization of TUTase-like proteins in T. brucei and identified two nuclear non-canonical poly(A) polymerases (ncPAPs). The 82kDa TbncPAP1 is essential for viability of procyclic and bloodstream …",
+    "citation": "Molecular and biochemical parasitology 164 (1), 66-73, 2009",
     "num_citations": 29,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0166685108002612"
   },
@@ -567,7 +567,7 @@
     "number": "2",
     "pages": "198-209",
     "publisher": "Elsevier",
-    "abstract": "In the mitochondria of trypanosomatids, the majority of mRNAs undergo massive uracil-insertion/deletion editing. Throughout the processes of pre-mRNA polyadenylation, guide RNA (gRNA) uridylylation and annealing to mRNA, and editing reactions, several multiprotein complexes must engage in transient interactions to produce a template for protein synthesis. Here, we report the identification of a protein complex essential for gRNA stability. The gRNA-binding complex (GRBC) interacts with gRNA processing, editing, and polyadenylation machineries and with the mitochondrial edited mRNA stability (MERS1) factor. RNAi knockdown of the core subunits, GRBC1 and GRBC2, led to the elimination of gRNAs, thus inhibiting mRNA editing. Inhibition of MERS1 expression selectively abrogated edited mRNAs. Homologous proteins unique to the order of Kinetoplastida, GRBC1 and GRBC2, form a stable 200 kDa …",
+    "citation": "Molecular cell 32 (2), 198-209, 2008",
     "num_citations": 134,
     "pub_url": "https://www.cell.com/molecular-cell/fulltext/S1097-2765(08)00611-4"
   },
@@ -580,7 +580,7 @@
     "number": "11",
     "pages": "1596-1608",
     "publisher": "John Wiley & Sons, Ltd",
-    "abstract": "Expression of the mitochondrial genome in protozoan parasite Trypanosoma brucei is controlled post‐transcriptionally and requires extensive U‐insertion/deletion mRNA editing. In mitochondrial extracts, 3′ adenylation reportedly influences degradation kinetics of synthetic edited and pre‐edited mRNAs. We have identified and characterized a mitochondrial poly(A) polymerase, termed KPAP1, and determined major polypeptides in the polyadenylation complex. Inhibition of KPAP1 expression abrogates short and long A‐tails typically found in mitochondrial mRNAs, and decreases the abundance of never‐edited and edited transcripts. Pre‐edited mRNAs are not destabilized by the lack of 3′ adenylation, whereas short A‐tails are required and sufficient to maintain the steady‐state levels of partially edited, fully edited, and never‐edited mRNAs. The editing directed by a single guide RNA is sufficient to impose a …",
+    "citation": "The EMBO journal 27 (11), 1596-1608, 2008",
     "num_citations": 113,
     "pub_url": "https://www.embopress.org/doi/abs/10.1038/emboj.2008.87"
   },
@@ -593,7 +593,7 @@
     "number": "4",
     "pages": "270-280",
     "publisher": "Elsevier",
-    "abstract": "Terminal RNA uridylyltransferases (TUTases) are functionally and structurally diverse nucleotidyl transferases that catalyze template-independent 3′ uridylylation of RNAs. Within the DNA polymerase β-type superfamily, TUTases are closely related to non-canonical poly(A) polymerases. Studies of U-insertion/deletion RNA editing in mitochondria of trypanosomatids identified the first TUTase proteins and their cellular functions: post-transcriptional uridylylation of guide RNAs by RNA editing TUTase 1 (RET1) and U-insertion mRNA editing by RNA editing TUTase 2 (RET2). The editing TUTases possess conserved catalytic and nucleotide base recognition domains, yet differ in quaternary structure, substrate specificity and processivity. The cytosolic TUTases TUT3 and TUT4 have also been identified in trypanosomes but their biological roles remain to be established. Structural analyses have revealed a mechanism …",
+    "citation": "Biochimica et Biophysica Acta (BBA)-Gene Regulatory Mechanisms 1779 (4), 270-280, 2008",
     "num_citations": 29,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S1874939907002003"
   },
@@ -606,7 +606,7 @@
     "number": "3",
     "pages": "882-899",
     "publisher": "Academic Press",
-    "abstract": "3′-Uridylylation of RNA is emerging as a phylogenetically widespread phenomenon involved in processing events as diverse as uridine insertion/deletion RNA editing in mitochondria of trypanosomes and small nuclear RNA (snRNA) maturation in humans. This reaction is catalyzed by terminal uridylyltransferases (TUTases), which are template-independent RNA nucleotidyltransferases that specifically recognize UTP and belong to a large enzyme superfamily typified by DNA polymerase β. Multiple TUTases, recently identified in trypanosomes, as well as a U6 snRNA-specific TUTase enzyme in humans, are highly divergent at the protein sequence level. However, they all possess conserved catalytic and UTP recognition domains, often accompanied by various auxiliary modules present at the termini or between conserved domains. Here we report identification, structural and biochemical analyses of a novel …",
+    "citation": "Journal of molecular biology 366 (3), 882-899, 2007",
     "num_citations": 60,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S002228360601624X"
   },
@@ -619,7 +619,7 @@
     "number": "37",
     "pages": "14634-14639",
     "publisher": "National Academy of Sciences",
-    "abstract": "Terminal RNA uridylyltransferases (TUTases) catalyze template-independent UMP addition to the 3′ hydroxyl of RNA. TUTases belong to the DNA polymerase β superfamily of nucleotidyltransferases that share a conserved catalytic domain bearing three metal-binding carboxylate residues. We have previously determined crystal structures of the UTP-bound and apo forms of the minimal trypanosomal TUTase, TbTUT4, which is composed solely of the N-terminal catalytic and C-terminal base-recognition domains. Here we report crystal structures of TbTUT4 with bound CTP, GTP, and ATP, demonstrating nearly perfect superposition of the triphosphate moieties with that of the UTP substrate. Consequently, at physiological nucleoside 5′-triphosphate concentrations, the protein–uracil base interactions alone are not sufficient to confer UTP selectivity. To resolve this ambiguity, we determined the crystal structure of a …",
+    "citation": "Proceedings of the National Academy of Sciences 104 (37), 14634-14639, 2007",
     "num_citations": 42,
     "pub_url": "https://www.pnas.org/doi/abs/10.1073/pnas.0704259104"
   },
@@ -632,7 +632,7 @@
     "number": "",
     "pages": "55-73",
     "publisher": "Academic Press",
-    "abstract": "Terminal RNA uridylyltransferases (TUTases) catalyze the transfer of UMP residues to the 3′ hydroxyl group of RNA. These enzymes belong to the DNA polymerase β superfamily, which also includes poly(A) polymerases, CCA‐adding enzymes, and other nucleotidyltransferases. Studies of uridylyl insertion/deletion RNA editing in mitochondria of trypanosomatids provided the first examples of biological functions for TUTases: posttranscriptional uridylylation of guide RNAs by RNA editing TUTase 1 (RET1) and U‐insertion mRNA editing by RNA editing TUTase 2 (RET2). The editing TUTases are unified by the presence of conserved catalytic and nucleotide base recognition domains, yet differ substantially in auxiliary function‐specific domains, quaternary structure, RNA substrate specificity, and processivity. This chapter describes isolation of TUTases and their complexes from trypanosomatids, methods used for …",
+    "citation": "Methods in enzymology 424, 55-73, 2007",
     "num_citations": 18,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0076687907240030"
   },
@@ -645,7 +645,7 @@
     "number": "",
     "pages": "75-105",
     "publisher": "Academic Press",
-    "abstract": "RNA editing is a collective term referring to a plethora of reactions that ultimately lead to changes in RNA nucleotide sequences apart from splicing, 5′ capping, or 3′ end processing. In the mitochondria of trypanosomatids, insertion and deletion of uridines must occur, often on a massive scale, in order to generate functional messenger RNAs. The current state of knowledge perceives the editing machinery as a dynamic system, in which heterogeneous protein complexes undergo multiple transient RNA–protein interactions in the course of gRNA processing, gRNA–mRNA recognition, and the cascade of nucleolytic and phosphoryl transfer reactions that ultimately change the mRNA sequence. Identification of RNA binding proteins that interact with the mitochondrial RNAs, core editing complex, or contribute to mRNA stability is of critical importance to our understanding of the editing process. This chapter describes …",
+    "citation": "Methods in enzymology 424, 75-105, 2007",
     "num_citations": 15,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0076687907240042"
   },
@@ -658,7 +658,7 @@
     "number": "",
     "pages": "227-239",
     "publisher": "Nauka/Interperiodica",
-    "abstract": "RNA editing is a collective term referring to a plethora of reactions that ultimately lead to changes in RNA nucleotide sequence apart from splicing, 5′ capping, or 3′ end processing. Spread throughout the Eukarya, RNA editing creates genetic information de novo, alters decoding capacity, or influences structure and stability of RNA by inserting, deleting, or modifying nucleotides. Evolutionarily unrelated, cotranscriptional or posttranscriptional mechanisms include RNA-polymerase stuttering, guide RNA-directed cascades of nucleolytic and phosphoryl-transfer reactions, site-specific deamination, and others. Here, I discuss recent advances in the enzymology of various RNA-editing systems, focusing on the diversity of mechanisms that change the RNA sequence in order to fulfill a specific biological function, even if the latter is not always apparent.",
+    "citation": "Molecular Biology 41, 227-239, 2007",
     "num_citations": 13,
     "pub_url": "https://link.springer.com/article/10.1134/S0026893307020057"
   },
@@ -671,7 +671,7 @@
     "number": "5",
     "pages": "308-308",
     "publisher": "AMER SOC TROP MED & HYGIENE",
-    "abstract": "",
+    "citation": "AMERICAN JOURNAL OF TROPICAL MEDICINE AND HYGIENE 77 (5), 308-308, 2007",
     "num_citations": 0,
     "pub_url": "https://scholar.google.com/scholar?cluster=13824593414395870796&hl=en&oi=scholarr"
   },
@@ -684,7 +684,7 @@
     "number": "",
     "pages": "69",
     "publisher": "Elsevier",
-    "abstract": "RNA Editing Uridylyltransferases 71 optimal volume of the calmodulin fraction should be determined empirically. The recommended concentration of the recombinant RET2 is 25–50 nM. At any rate, the final concentration of the KCl in the reaction should not exceed 60–70 mM. If visualization of the ligation activity is necessary, ATP may be added to a final concentration of 100 μM after the uridylyltransferase step and incubation continued for 30 min more. The reaction is terminated by adding 50 μl of 0.5 M sodium acetate, pH 5.0, 10 mM EDTA, 0.1% SDS, and 2 μg of glycogen (Ambion). RNA is extracted with phenol-chloroform, precipitated with ethanol, and resuspended in 5 μl of 95% formamide, 0.05% bromophenol blue, 0.05% xylene cyanol FF, and 10 mM EDTA. The sample is denatured by heating at 80 for 2 min and 1–2 μl analyzed on 15% acrylamide/urea gel. For a singlestranded RNA substrate, no pretreatment is necessary. The 50 labeled RNA is added directly to the reaction mix to 100 nM. The 50 cleavage fragment used in the precleaved assay and the 6 [A] substrate 50-GCUAUGUCUGCUAACUUGAAAAAA-30 (Aphasizhev et al., 2002) have been found to work equally well.Kinetic analysis of the RET2-catalyzed reaction cannot be performed by filter-based assay due to the enzyme’s low catalytic efficiency and processivity. Instead, application of the high-resolution denaturing acrylamide urea gel is required. A 40 cm/0.4 mm 15% gel is recommended. The specific activity of the RNA substrate is calculated based on the known amount of RNA in the lane and signal intensity units generated by image acquisition software. The molar …",
+    "citation": "RNA Editing 424, 69, 2007",
     "num_citations": 0,
     "pub_url": "https://scholar.google.com/scholar?cluster=1261501812269160163&hl=en&oi=scholarr"
   },
@@ -697,7 +697,7 @@
     "number": "",
     "pages": "2194-2203",
     "publisher": "Birkhäuser-Verlag",
-    "abstract": "The terminal RNA uridylyltransferases (TUTases) catalyze transfer of UMP residues to the 3′ hydroxyl group of RNA. These activities are widespread among eukaryotes and appear to be involved in a variety of RNA-processing pathways. Recent studies of RNA editing in trypanosomatids have provided the first insights into the biological functions of RNA uridylyltransferases, which had eluded biochemical identification despite 30-year-old evidence of such activities in mammals and plants. Comparative sequence analysis of trypanosomal TUTases and their homologs revealed by large-scale genomic projects demonstrates a significant level of biochemical and structural diversity between putative uridylyltransferases. The conserved catalytic domain has acquired additional protein modules and appears to have adapted to perform functionally distinct tasks of guided U-insertion into mRNA and constrained …",
+    "citation": "Cellular and Molecular Life Sciences CMLS 62, 2194-2203, 2005",
     "num_citations": 49,
     "pub_url": "https://link.springer.com/article/10.1007/s00018-005-5198-9"
   },
@@ -710,7 +710,7 @@
     "number": "2",
     "pages": "159-170",
     "publisher": "Cold Spring Harbor Lab",
-    "abstract": "A number of mitochondrial proteins have been identified in Leishmania sp. and Trypanosoma brucei that may be involved in U-insertion/deletion RNA editing. Only a few of these have yet been characterized sufficiently to be able to assign functional names for the proteins in both species, and most have been denoted by a variety of species-specific and laboratory-specific operational names, leading to a terminology confusion both within and outside of this field. In this review, we summarize the present status of our knowledge of the orthologous and unique putative editing proteins in both species and the functional motifs identified by sequence analysis and by experimentation. An online Supplemental sequence database (http://164.67.60.200/proteins/protsmini1.asp) is also provided as a research resource.",
+    "citation": "Rna 10 (2), 159-170, 2004",
     "num_citations": 163,
     "pub_url": "https://rnajournal.cshlp.org/content/10/2/159.short"
   },
@@ -723,7 +723,7 @@
     "number": "23",
     "pages": "24123-24130",
     "publisher": "Elsevier",
-    "abstract": "The catalytic, RNA-binding and oligomerization domains of the RNA-editing terminal uridylyl transferase 1 (RET1) from Leishmania tarentolae mitochondria were characterized by mutational analysis. Significant N- and C-terminal portions of the protein were found to be dispensable for UTP polymerization in vitro. Changes of conserved amino acids in the active site demonstrated a general similarity of sugar-phosphate moiety recognition of the incoming ribonucleotide triphosphate by RET1 and eukaryotic poly(A) polymerases. Overlapping RNA-binding and oligomerization regions were mapped to the C-terminal region, which is conserved only among trypanosomatid RET1 enzymes. In the absence of an RNA primer, RET1 can use UTP itself to initiate nucleotide transfer and produce poly(U) molecules of several hundred nucleotides. An N-terminal zinc finger motif is essential for enzyme activity; deletion of this …",
+    "citation": "Journal of Biological Chemistry 279 (23), 24123-24130, 2004",
     "num_citations": 43,
     "pub_url": "https://www.jbc.org/article/S0021-9258(20)66543-7/fulltext"
   },
@@ -736,7 +736,7 @@
     "number": "1-3",
     "pages": "15-18",
     "publisher": "",
-    "abstract": "The transferase activities that add uridylyl residues to RNA have been reported in several unicellular and metazoan organisms. Thus far, the two terminal uridylyltransferases (TUTases) involved in uridine insertion/deletion mRNA editing in mitochondria of trypanosomes were the only known enzymes with confirmed UTP specificity. Here, we demonstrate that protein sequences of editing TUTases may be used to predict novel UTP‐specific enzymes by data mining. The highest‐scoring open reading frame from Trypanosoma brucei was expressed and recombinant protein purified. This enzyme catalyzes a processive UMP incorporation and is not localized to the mitochondria suggesting a non‐editing biological function.",
+    "citation": "FEBS letters 572 (1-3), 15-18, 2004",
     "num_citations": 37,
     "pub_url": "https://febs.onlinelibrary.wiley.com/doi/abs/10.1016/j.febslet.2004.07.004"
   },
@@ -749,7 +749,7 @@
     "number": "6",
     "pages": "3893-3899",
     "publisher": "Elsevier",
-    "abstract": "The uridine insertion/deletion editing complex, which we have termed the L-complex, is composed of at least 16 polypeptides stabilized entirely by protein-protein interactions. Three L-complex proteins contain zinc finger motifs that could be involved in these interactions. In Leishmania these proteins are labeled LC-1, LC-4, and LC-7b, and the orthologs in Trypanosoma brucei are labeled MP81, MP63, and MP42. Overexpression of TAP-tagged LC-4 in Leishmania tarentolae led to a partial localization of the protein in the L-complex together with the endogenous LC-4 protein, suggesting at least a dimeric organization. Disruption of zinc fingers 1 or 2 (ZnF-1 and ZnF-2) in the tagged LC-4 protein was performed by mutation of the two zinc-binding cysteines to glycines. Disruption of ZnF-1 led to a partial growth defect and a substantive breakdown of the L-complex, whereas disruption of ZnF-2 had no effect on cell …",
+    "citation": "Journal of Biological Chemistry 279 (6), 3893-3899, 2004",
     "num_citations": 36,
     "pub_url": "https://www.jbc.org/article/S0021-9258(20)74965-3/fulltext"
   },
@@ -762,7 +762,7 @@
     "number": "6",
     "pages": "3893-3899",
     "publisher": "Baltimore [etc.]",
-    "abstract": "The uridine insertion/deletion editing complex, which we have termed the L-complex, is composed of at least 16 polypeptides stabilized entirely by protein-protein interactions. Three L-complex proteins contain zinc finger motifs that could be involved in these interactions. In Leishmania these proteins are labeled LC-1, LC-4, and LC-7b, and the orthologs in Trypanosoma brucei are labeled MP81, MP63, and MP42. Overexpression of TAP-tagged LC-4 in Leishmania tarentolae led to a partial localization of the protein in the L-complex together with the endogenous LC-4 protein, suggesting at least a dimeric organization. Disruption of zinc fingers 1 or 2 (ZnF-1 and ZnF-2) in the tagged LC-4 protein was performed by mutation of the two zinc-binding cysteines to glycines. Disruption of ZnF-1 led to a partial growth defect and a substantive breakdown of the L-complex, whereas disruption of ZnF-2 had no effect on cell …",
+    "citation": "Journal of Biological Chemistry 279 (6), 3893-3899, 2004",
     "num_citations": 0,
     "pub_url": "https://scholar.google.com/scholar?cluster=5770446624587354758&hl=en&oi=scholarr"
   },
@@ -775,7 +775,7 @@
     "number": "2",
     "pages": "221-224",
     "publisher": "Amsterdam: Elsevier/North-Holland Biomedical Press, 1980-",
-    "abstract": "The enzymatic machinery for the gRNA-mediated U-insertion/deletion RNA editing of pre-mRNAs encoded by the maxicircle mitochondrial genome of kinetoplastid protozoa involves several high molecular weight complexes that interact via RNA. In Leishmania tarentolae, the core L-complex contains approximately 16 polypeptides including the two RNA ligases, REL1 and REL2 [1, 2]. Initially, the L-complex was identified by labeling the component RNA ligases with 32P-ATP. This labeled complex sedimented in a glycerol gradient from 20 to 25S and migrated in a native gel as a single band with an apparent molecular weight of approximately 1200–2000kDa. A second more intensely labeled complex which sedimented at around 12S–15S and migrated in a native gel as a doublet band at an apparent molecular weight of approximately 700kDa was termed the intermediate or I-complex [3]. We have shown that the I-complex could be labeled with 32P-ATP in the absence of Mg2+; since Mg2+ was required for adenylation of the REL1 and REL2 RNA ligases, this indicated that I-complex labeling was not due to adenylation of REL1 and REL2 [2]. We have also shown that the labeling of the I-complex is not covalent since the label was released by 55◦ C heat treatment of the gel and by exposure to low pH (data not shown); furthermore, extraction of the 32P-ATP-labeled I-complex yielded predominately 32P-ADP (not shown). In order to further characterize the I-complex, it was purified from L. tarentolae mitochondrial extract by glycerol gra-",
+    "citation": "Molecular and biochemical parasitology 135 (2), 221-224, 2004",
     "num_citations": 16,
     "pub_url": "https://www.academia.edu/download/70553473/j.molbiopara.2004.02.00320210929-16437-1fvxpxa.pdf"
   },
@@ -788,7 +788,7 @@
     "number": "",
     "pages": "",
     "publisher": "",
-    "abstract": "The catalytic, RNA-binding and oligomerization domains of the RNA-editing terminal uridylyl transferase 1 (RET1) from Leishmania tarentolae mitochondria were characterized by mutational analysis. Significant N-and C-terminal portions of the protein were found to be dispensable for UTP polymerization in vitro. Changes of conserved amino acids in the active site demonstrated a general similarity of sugar-phosphate moiety recognition of the incoming ribonucleotide triphosphate by RET1 and eukaryotic poly (A) polymerases. Overlapping RNA-binding and oligomerization regions were mapped to the C-terminal region, which is conserved only among trypanosomatid RET1 enzymes. In the absence of an RNA primer, RET1 can use UTP itself to initiate nucleotide transfer and produce poly (U) molecules of several hundred nucleotides. An N-terminal zinc finger motif is essential for enzyme activity; deletion of this motif or chelation of zinc inhibits activity.Transfer of a nucleotide to an acceptor hydroxyl group is a fundamental chemical reaction involved in a variety of biological processes. Among many enzyme superfamilies that perform this reaction, the DNA polymerase ß-type group of nucleotidyltransferases is one of most widespread. Members of this group are involved in such diverse pathways as DNA repair, RNA processing, antibiotic resistance, and signal transduction (1). They include poly (A) polymerase (PAP), 1 CCA-adding enzymes, terminal deoxynucleotidyl transferase, kanamycin nucleotidyltransferase, and others. A characteristic feature of the superfamily is the presence of conserved catalytic domain with three metal-coordinating …",
+    "citation": "",
     "num_citations": 0,
     "pub_url": "https://www.researchgate.net/profile/Larry-Simpson-3/publication/8641467_RNA-editing_terminal_uridylyl_transferase_1_-_Identification_of_functional_domains_by_mutational_analysis/links/584dcd0908aeb9892526461a/RNA-editing-terminal-uridylyl-transferase-1-Identification-of-functional-domains-by-mutational-analysis.pdf"
   },
@@ -801,7 +801,7 @@
     "number": "3",
     "pages": "265-276",
     "publisher": "Cold Spring Harbor Lab",
-    "abstract": "The basic mechanism of uridine insertion/deletion RNA editing in mitochondria of kinetoplastid protists has been established for some time but the molecular details remained largely unknown. Recently, there has been significant progress in defining the molecular components of the editing reaction. A number of factors have been isolated from trypanosome mitochondria, some of which have been definitely implicated in the uridine insertion/deletion RNA editing reaction and others of which have been circumstantially implicated. Several protein complexes have been isolated which exhibit some editing activities, and the macromolecular organization of these complexes is being analyzed. In addition, there have been several important technical advances in the in vitro analysis of editing. In this review we critically examine the various factors and complexes proposed to be involved in RNA editing.",
+    "citation": "Rna 9 (3), 265-276, 2003",
     "num_citations": 222,
     "pub_url": "https://rnajournal.cshlp.org/content/9/3/265.short"
   },
@@ -814,7 +814,7 @@
     "number": "",
     "pages": "",
     "publisher": "John Wiley & Sons, LtdChichester, UK",
-    "abstract": "A multiprotein, high molecular weight complex active in both U‐insertion and U‐deletion as judged by a pre‐cleaved RNA editing assay was isolated from mitochondrial extracts of Leishmania tarentolae by the tandem affinity purification (TAP) procedure, using three different TAP‐tagged proteins of the complex. This editing‐or E‐complex consists of at least three protein‐containing components interacting via RNA: the RNA ligase‐containing L‐complex, a 3′ TUTase (terminal uridylyltransferase) and two RNA‐binding proteins, Ltp26 and Ltp28. Thirteen approximately stoichiometric components were identified by mass spectrometric analysis of the core L‐complex: two RNA ligases; homologs of the four Trypanosoma brucei editing proteins; and seven novel polypeptides, among which were two with RNase III, one with an AP endo/exonuclease and one with nucleotidyltransferase motifs. Three proteins have no …",
+    "citation": "The EMBO journal, 2003",
     "num_citations": 181,
     "pub_url": "https://www.embopress.org/doi/full/10.1093/emboj/cdg083"
   },
@@ -827,7 +827,7 @@
     "number": "19",
     "pages": "10617-10622",
     "publisher": "National Academy of Sciences",
-    "abstract": "The insertion and deletion of U residues at specific sites in mRNAs in trypanosome mitochondria is thought to involve 3′ terminal uridylyl transferase (TUTase) activity. TUTase activity is also required to create the nonencoded 3′ oligo[U] tails of the transacting guide RNAs (gRNAs). We have described two TUTases, RET1 (RNA editing TUTase 1) and RET2 (RNA editing TUTase 2) as components of different editing complexes. Tandem affinity purification-tagged Trypanosoma brucei RET2 (TbRET2) was expressed and localized to the cytosol in Leishmania tarentolae cells by removing the mitochondrial signal sequence. Double-affinity isolation yielded tagged TbRET2, together with a few additional proteins. This material exhibits a U-specific transferase activity in which a single U is added to the 3′ end of a single-stranded RNA, thereby confirming that RET2 is a 3′ TUTase. We also found that RNA interference …",
+    "citation": "Proceedings of the National Academy of Sciences 100 (19), 10617-10622, 2003",
     "num_citations": 151,
     "pub_url": "https://www.pnas.org/doi/abs/10.1073/pnas.1833120100"
   },
@@ -840,7 +840,7 @@
     "number": "1",
     "pages": "62-76",
     "publisher": "Cold Spring Harbor Lab",
-    "abstract": "A stable 100-kD complex from mitochondria of Leishmania tarentolae containing two RNA-binding proteins, Ltp26 and Ltp28, was identified by cross-linking to unpaired 4-thiouridine nucleotides in a partially duplex RNA substrate. The genes were cloned and expressed and the complex was reconstituted from recombinant proteins in the absence of RNA or additional factors. The Ltp26 and Ltp28 proteins are homologs of gBP27 and gBP29 from Crithidia fasciculata and gBP25 and gBP21 from Trypanosoma brucei, respectively. The purified Ltp26/Ltp28 complex, the individual recombinant proteins, and the reconstituted complex are each capable of catalyzing the annealing of complementary RNAs, as was previously shown for gBP21 from T. brucei. A high-molecular-weight RNP complex consisting of the Ltp26/Ltp28 complex and several 55–60-kD proteins together with guide RNA could be purified from …",
+    "citation": "Rna 9 (1), 62-76, 2003",
     "num_citations": 137,
     "pub_url": "https://rnajournal.cshlp.org/content/9/1/62.short"
   },
@@ -853,7 +853,7 @@
     "number": "5",
     "pages": "637-648",
     "publisher": "Elsevier",
-    "abstract": "A 3′ terminal RNA uridylyltransferase was purified from mitochondria of Leishmania tarentolae and the gene cloned and expressed from this species and from Trypanosoma brucei. The enzyme is specific for 3′ U-addition in the presence of Mg2+. TUTase is present in vivo in at least two stable configurations: one contains a ∼500 kDa TUTase oligomer and the other a ∼700 kDa TUTase complex. Anti-TUTase antiserum specifically coprecipitates a small portion of the p45 and p50 RNA ligases and approximately 40% of the guide RNAs. Inhibition of TUTase expression in procyclic T. brucei by RNAi downregulates RNA editing and appears to affect parasite viability.",
+    "citation": "Cell 108 (5), 637-648, 2002",
     "num_citations": 177,
     "pub_url": "https://www.cell.com/AJHG/fulltext/S0092-8674(02)00647-5"
   },
@@ -866,7 +866,7 @@
     "number": "1",
     "pages": "133-133",
     "publisher": "CELL PRESS",
-    "abstract": "",
+    "citation": "CELL 110 (1), 133-133, 2002",
     "num_citations": 0,
     "pub_url": "https://scholar.google.com/scholar?cluster=16528530800439737517&hl=en&oi=scholarr"
   },
@@ -879,7 +879,7 @@
     "number": "24",
     "pages": "21280-21284",
     "publisher": "Elsevier",
-    "abstract": "We have purified a 3′-5′-exoribonuclease from mitochondrial extract of Leishmania tarentolae over 4000-fold through six column fractionations. This enzyme digested RNA in a distributive manner, showed a high level of specificity for 3′-terminal Us, and was blocked by a terminal dU; there was slight exonucleolytic activity on a 3′-terminal A or C but no activity on a 3′-terminal G residue. The enzyme preferred single-stranded 3′-oligo(U) overhangs and did not digest duplex RNA. Two other 3′-5′-exoribonuclease activities were also detected in the mitochondrial extract, one of which was stimulated by a 3′-phosphate and the other of which degraded RNAs with a 3′-OH to mononucleotides in a processive manner. The properties of the distributive U-specific 3′-5′-exoribonuclease suggest an involvement in the U-deletion RNA editing reaction that occurs in the mitochondrion of these cells.",
+    "citation": "Journal of Biological Chemistry 276 (24), 21280-21284, 2001",
     "num_citations": 38,
     "pub_url": "https://www.jbc.org/article/S0021-9258(20)78692-8/fulltext"
   },
@@ -892,7 +892,7 @@
     "number": "34",
     "pages": "24289-24296",
     "publisher": "Elsevier",
-    "abstract": "A biochemical characterization was performed with a partially purified RNA ligase from isolated mitochondria of Leishmania tarentolae. This ligase has a Km of 25 ± 0.75 nm and a Vmax of 1.0 × 10–4 ± 2.4 × 10−4 nmol/min when ligating a nicked double-stranded RNA substrate. Ligation was negatively affected by a gap between the donor and acceptor nucleotides. The catalytic efficiency of the circularization of a single-stranded substrate was 5-fold less than that of the ligation of a nicked substrate. These properties of the mitochondrial RNA ligase are consistent with an expected in vivo role in the process of uridine insertion/deletion RNA editing, in which the mRNA cleavage fragments are bridged by a cognate guide RNA.",
+    "citation": "Journal of Biological Chemistry 274 (34), 24289-24296, 1999",
     "num_citations": 49,
     "pub_url": "https://www.jbc.org/article/S0021-9258(19)55558-2/fulltext"
   },
@@ -905,7 +905,7 @@
     "number": "4",
     "pages": "602-606",
     "publisher": "Pleiades Publishing, Ltd.(Плеадес Паблишинг, Лтд)",
-    "abstract": "",
+    "citation": "Molecular Biology 33 (4), 602-606, 1999",
     "num_citations": 1,
     "pub_url": "https://elibrary.ru/item.asp?id=13306780"
   },
@@ -918,7 +918,7 @@
     "number": "1",
     "pages": "73-80",
     "publisher": "Elsevier",
-    "abstract": "All mitochondrial tRNAs in kinetoplastid protozoa are encoded in nuclear DNA and transported into the mitochondrion (Simpson et al., Nucl Acids Res 1989;17:5427–5445; Hancock and Hajduk, J Biol Chem 1990;265:19208–19215). It has been proposed that tRNAs in these cells are imported into the mitochondrion as 5′-extended precursors which are processed by a mitochondrial RNase P-like activity (Hancock et al., J Biol Chem 1992;267:23963–23971). We have examined this hypothesis by cloning and sequencing primer extension products of mitochondrial tRNAs from Leishmania tarentolae and Trypanosoma brucei, and have found that these are derived from circularized mature tRNA molecules. We suggest that these molecules are produced by the endogenous RNA ligase activity (Bakalara et al., J Biol Chem 1989;264:18679–18686) either in vivo or during mitochondrial isolation. We did not obtain any …",
+    "citation": "Molecular and biochemical parasitology 93 (1), 73-80, 1998",
     "num_citations": 21,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S016668519800022X"
   },
@@ -931,7 +931,7 @@
     "number": "1",
     "pages": "101-104",
     "publisher": "No longer published by Elsevier",
-    "abstract": "Structural properties and conformational stability of de novo proteins – albebetin and albeferon (albebetin with a grafted interferon fragment) – were studied by means of CD spectroscopy, gel filtration and urea-induced unfolding. The results allow us to conclude that albebetin possesses the properties of the molten globule state. Grafting of the octapeptide to the N-terminus of this de novo protein affects its structure. We show here that albeferon maintains a secondary structure content of albebetin; it becomes more compact and much more stable toward urea-induced unfolding as compared to albebetin and even possesses some weak tertiary structure (at least around Tyr7). This means that the structure of the artificial protein albebetin can be improved by a simple procedure of octapeptide grafting to its N-terminus.",
+    "citation": "FEBS letters 425 (1), 101-104, 1998",
     "num_citations": 24,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0014579398002014"
   },
@@ -944,7 +944,7 @@
     "number": "3",
     "pages": "360-366",
     "publisher": "Pergamon Press",
-    "abstract": "",
+    "citation": "Biophysics 43 (3), 360-366, 1998",
     "num_citations": 0,
     "pub_url": "https://scholar.google.com/scholar?cluster=9626834898821057871&hl=en&oi=scholarr"
   },
@@ -957,7 +957,7 @@
     "number": "8",
     "pages": "893",
     "publisher": "",
-    "abstract": "The contribution of the ribose 2'-hydroxyls to RNA structure and function has been analyzed, but still remains controversial. In this work, we report the use of a mutant T7 RNA polymerase as a tool in RNA studies, applied to the aspartate and methionine tRNA aminoacylation systems from yeast. Our approach consists of determining the effect of substituting natural ribonucleotides by deoxyribonucleotides in RNA and, thereby, defining the subset of important 2'-hydroxyl groups. We show that deoxyribose-containing RNA can be folded in a global conformation similar to that of natural RNA. Melting curves of tRNAs, obtained by temperature-gradient gel electrophoresis, indicate that in deoxyribo-containing molecules, the thermal stability of the tertiary network drops down, whereas the stability of the secondary structure remains unaltered. Nuclease footprinting reveals a significant increase in the accessibility of both …",
+    "citation": "Rna 3 (8), 893, 1997",
     "num_citations": 25,
     "pub_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1369534/"
   },
@@ -970,7 +970,7 @@
     "number": "5",
     "pages": "489",
     "publisher": "",
-    "abstract": "We showed previously that the tRNA tertiary structure makes an important contribution to the identity of yeast tRNA(Met) (Senger B, Aphasizhev R, Walter P, Fasiolo F, 1995, J Mol Biol 249:45-58). To learn more about the role played by the tRNA framework, we analyzed the effect of some phosphodiester cleavages and 2'OH groups in tRNA binding and aminoacylation. The tRNA is inactivated provided the break occurs in the central core region responsible for the tertiary fold or in the anticodon stem/loop region. We also show that, for tRNA(Met) to bind, the anticodon loop, but not the anticodon stem, requires a ribosephosphate backbone. A tertiary mutant of yeast tRNA(Met) involving interactions from the D- and T-loop unique to the initiator species fails to be aminoacylated, but still binds to yeast methionyl-tRNA synthetase. In the presence of 10 mM MgCl2, the mutant transcript has a 3D fold significantly stabilized …",
+    "citation": "Rna 3 (5), 489, 1997",
     "num_citations": 20,
     "pub_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1369499/"
   },
@@ -983,7 +983,7 @@
     "number": "1",
     "pages": "59-61",
     "publisher": "",
-    "abstract": "",
+    "citation": "Russian journal of immunology: RJI: official journal of Russian Society of …, 1997",
     "num_citations": 2,
     "pub_url": "https://pubmed.ncbi.nlm.nih.gov/12687057/"
   },
@@ -996,7 +996,7 @@
     "number": "1",
     "pages": "117-123",
     "publisher": "American Chemical Society",
-    "abstract": "We previously showed that yeast mitochondrial phenylalanyl-tRNA synthetase (MSF protein) is evolutionarily distant to the cytoplasmic counterpart based on a high degree of divergence in protein sequence, molecular mass, and quaternary structure. Using yeast cytoplasmic tRNAPhe which is efficiently aminoacylated by MSF protein, we report here the tRNAPhe primary site of aminoacylation and the identity determinants for MSF protein. As for the cytoplasmic phenylalanyl-tRNA synthetase (Sampson, J. R., Di Renzo, A. B., Behlen, L. S., & Uhlenbeck, O. C. (1989) Science 243, 1363−1366), MSF protein recognizes nucleotides from the anticodon and the acceptor end including base A73 and, as shown here, adjacent G1-C72 base pair or at least C72 base. This indicates that the way of tRNAPhe binding for the two phenylalanine enzymes is conserved in evolution. However, tRNAPhe tertiary structure seems more …",
+    "citation": "Biochemistry 35 (1), 117-123, 1996",
     "num_citations": 28,
     "pub_url": "https://pubs.acs.org/doi/abs/10.1021/bi9517998"
   },
@@ -1009,7 +1009,7 @@
     "number": "1",
     "pages": "45-58",
     "publisher": "Academic Press",
-    "abstract": "Dissection of the yeast cytoplasmic initiator tRNAMetinto two helical domains, the TΨC acceptor and anticodon minihelices, failed to show aminoacylation and binding of the acceptor minihelix by the yeast methionyl-tRNA synthetase (MetRS) even in the presence of the anticodon minihelix. In contrast, based on the measure of the inhibition constant Ki, the anticodon minihelix carrying the methionine anticodon CAU is specifically bound to the synthetase and with an affinity comparable to that of the full-length tRNA. The yeast tRNAMetacceptor and anticodon minihelices were covalently linked using the central core sequences of either bovine mitochondrial tRNASer(AGY) lacking a D-stem or initiator tRNAMetfromCaenorhabditis eleganslacking a T-stem. Based on modeling studies of analogous constructs performed by others, we assume that the folding and distance between the anticodon and acceptor ends of …",
+    "citation": "Journal of molecular biology 249 (1), 45-58, 1995",
     "num_citations": 32,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/S0022283685702793"
   },
@@ -1022,7 +1022,7 @@
     "number": "1-2",
     "pages": "175-178",
     "publisher": "No longer published by Elsevier",
-    "abstract": "Location of phosphodiester bonds essential for aminoacylation of bovine tRNTrp was identified using a randomly cleaved transcript synthesized in vitro. It was found that cleavage of phosphodiester bonds after nucleotides in positions 21, 22, 36–38, 57–59, 62 and 64 were critical for aminoacylation capacity of tRNATrp-transcript. These cleavage sites were located in the regions of tRNA molecule protected by the cognate synthetase against chemical modification and in the regions presumably outside the contact area as well. These results indicate that for maintenance of aminoacylation ability the intactness of the certain regions of the tRNA backbone structure is necessary. Random splitting of non-modified RNA with alkali followed by separation of active and inactive molecules and identification of cleavage sites developed in this work may become a general approach for studying the role of RNA covalent structure …",
+    "citation": "FEBS letters 323 (1-2), 175-178, 1993",
     "num_citations": 7,
     "pub_url": "https://www.sciencedirect.com/science/article/pii/001457939381474E"
   }

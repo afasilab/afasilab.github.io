@@ -1,47 +1,54 @@
 #!/usr/bin/env python3
 """
 update_publications.py
--------------------------------------------
-Скачивает публикации сразу из двух профилей Google Scholar
-(Ruslan Afasizhev, Inna Afasizheva), сохраняет метаданные
-в JSON и обновляет блок <section id="publications"> … </section>
-в корневом index.html.
--------------------------------------------
-pip install "scholarly>=1.7.11"
-"""
+────────────────────────────────────────────────────────────────────────────
+Скачивает публикации из двух профилей Google Scholar
+  • Ruslan Afasizhev  (U7yVbHIAAAAJ)
+  • Inna Afasizheva   (-ivXdnsAAAAJ)
 
-import json
-import re
+▪ сохраняет JSON в  publications/gs_json/…
+▪ перезаписывает блок  <section id="publications"> … </section>  в index.html
+
+pip install "scholarly>=1.7.11"
+────────────────────────────────────────────────────────────────────────────
+"""
+from __future__ import annotations
+
+import json, re, sys
 from datetime import datetime
-from pathlib import Path
+from pathlib   import Path
+from typing    import Dict, List, Tuple
 
 from scholarly import scholarly
 
-# ──────────────── настройки путей ────────────────
-SCRIPT_DIR = Path(__file__).resolve().parent          # …/publications
+
+# ────────── пути ──────────
+SCRIPT_DIR = Path(__file__).resolve().parent         # …/publications
 REPO_DIR   = SCRIPT_DIR.parent                       # …/afasilab.github.io
 INDEX_HTML = REPO_DIR / "index.html"
 
-GS_DIR     = REPO_DIR / "publications" / "gs_json"
+GS_DIR   = REPO_DIR / "publications" / "gs_json"
 GS_DIR.mkdir(parents=True, exist_ok=True)
 
-today        = datetime.today().strftime("%m-%d-%Y")
-JSON_FILE    = GS_DIR / f"publications_detailed_{today}.json"
+today     = datetime.today().strftime("%m-%d-%Y")
+JSON_FILE = GS_DIR / f"publications_detailed_{today}.json"
+# ─────────────────────────
 
-AUTHOR_IDS = {
+
+AUTHOR_IDS: Dict[str, str] = {
     "Ruslan Afasizhev": "U7yVbHIAAAAJ",
     "Inna Afasizheva":  "-ivXdnsAAAAJ",
 }
-# ────────────────────────────────────────────────
 
 
-def fetch_author_pubs(author_id: str) -> list[dict]:
-    """Вернуть список публикаций автора по его Google-Scholar ID."""
+# ═════════════ helpers ═════════════
+def fetch_author_pubs(author_id: str) -> List[dict]:
+    """Собрать список публикаций автора по его ID."""
     base = scholarly.search_author_id(author_id)
     full = scholarly.fill(base, sections=["publications"])
-    pubs = []
-    for pub in full["publications"]:
-        filled = scholarly.fill(pub)
+    pubs: List[dict] = []
+    for p in full["publications"]:
+        filled = scholarly.fill(p)
         bib    = filled.get("bib", {})
         pubs.append(
             {
@@ -53,7 +60,7 @@ def fetch_author_pubs(author_id: str) -> list[dict]:
                 "number":       bib.get("number", ""),
                 "pages":        bib.get("pages", ""),
                 "publisher":    bib.get("publisher", ""),
-                "abstract":     bib.get("abstract", ""),
+                "citation":     bib.get("citation", ""),
                 "num_citations": filled.get("num_citations", 0),
                 "pub_url":      filled.get("pub_url", ""),
             }
@@ -61,34 +68,56 @@ def fetch_author_pubs(author_id: str) -> list[dict]:
     return pubs
 
 
-# ──────────────── 1. собираем все публикации ────────────────
-all_pubs = []
-for name, aid in AUTHOR_IDS.items():
-    print(f"📥  Fetching publications for {name} …")
-    all_pubs.extend(fetch_author_pubs(aid))
+def best_link(pub: dict) -> str:
+    """Отдать DOI → PMID → fallback‐URL."""
+    blob = f'{pub.get("citation","")} {pub.get("pub_url","")}'
+    doi  = re.search(r"(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", blob)
+    if doi:
+        return f"https://doi.org/{doi.group(1)}"
+    pmid = re.search(r"pubmed\.ncbi\.nlm\.nih\.gov/(\d{4,9})", blob)
+    if pmid:
+        return f"https://pubmed.ncbi.nlm.nih.gov/{pmid.group(1)}/"
+    return pub.get("pub_url", "")
 
-# дедупликация (title + year)
-uniq: dict[tuple[str, str], dict] = {}
-for p in all_pubs:
+
+def short_authors(auths: str, keep: int = 3) -> str:
+    """Сократить длинный список авторов до «A, B, C et al.»."""
+    names = [a.strip() for a in auths.split(" and ")]
+    return (", ".join(names[:keep]) + " et al.") if len(names) > keep + 3 else ", ".join(names)
+# ═══════════════════════════════════
+
+
+# ────────── 1. собираем публикации ──────────
+all_pubs: List[dict] = []
+for name, aid in AUTHOR_IDS.items():
+    print(f"📥  Fetching {name} …")
+    try:
+        all_pubs += fetch_author_pubs(aid)
+    except Exception as e:                         # noqa: BLE001
+        print(f"⚠️  {name}: {e}", file=sys.stderr)
+
+uniq: Dict[Tuple[str, str], dict] = {}
+for p in all_pubs:                                # дедупликация
     key = (p["title"].lower().strip(), p.get("year"))
     uniq.setdefault(key, p)
-publications = list(uniq.values())
 
-# отбрасываем записи без года и сортируем
-publications = [p for p in publications if p.get("year")]
+publications = [p for p in uniq.values() if p.get("year")]
 publications.sort(key=lambda x: int(x["year"]), reverse=True)
 
-print(f"🔢  Total unique publications: {len(publications)}")
+print(f"🔢  Unique publications: {len(publications)}")
 
-# ──────────────── 2. сохраняем JSON ────────────────
-with JSON_FILE.open("w", encoding="utf-8") as f:
-    json.dump(publications, f, ensure_ascii=False, indent=2)
-print(f"💾  Saved metadata → {JSON_FILE.relative_to(REPO_DIR)}")
+# ────────── 2. сохраняем JSON ──────────
+JSON_FILE.write_text(json.dumps(publications, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"💾  Saved → {JSON_FILE.relative_to(REPO_DIR)}")
 
-# ──────────────── 3. генерируем HTML блок ────────────────
-blocks = []
+# ────────── 3. генерируем HTML ──────────
+block_lines: List[str] = []
 for p in publications:
-    cite = f'{p["authors"]}. {p["title"]}.'
+    link = best_link(p)
+    cite = (
+        f'{short_authors(p["authors"])}. '
+        f'<a href="{link}" target="_blank" class="ext">{p["title"]}</a>.'
+    )
     if p["journal"]:
         cite += f' <em>{p["journal"]}</em>'
     if p["volume"]:
@@ -98,31 +127,47 @@ for p in publications:
     if p["pages"]:
         cite += f', {p["pages"]}'
     cite += f', {p["year"]}.'
-
-    url  = p["pub_url"]
-    blocks.append(
-        f'''    <div class="pub-entry">
-      <p>{cite}<br><em>(<a href="{url}" target="_blank">Link</a>)</em></p>
-    </div>'''
-    )
+    block_lines.append(f'    <div class="pub-entry"><p>{cite}</p></div>')
 
 new_section = (
     "<section id=\"publications\">\n"
     "  <h2>Publications</h2>\n"
     "  <div class=\"publications\">\n"
-    f"{chr(10).join(blocks)}\n"
+    + "\n".join(block_lines) + "\n"
     "  </div>\n"
     "</section>"
 )
 
-# ──────────────── 4. вставляем в index.html ────────────────
-html = INDEX_HTML.read_text(encoding="utf-8")
+# ────────── 4. встраиваем в index.html ──────────
+html_src = INDEX_HTML.read_text(encoding="utf-8")
+updated  = re.sub(
+    r'<section[^>]*id=["\']publications["\'][\s\S]*?</section>',
+    new_section,
+    html_src,
+    flags=re.IGNORECASE | re.DOTALL,
+)
 
-pattern = r"<section[^>]*id=[\"']publications[\"'][\s\S]*?</section>"
-updated = re.sub(pattern, new_section, html, flags=re.IGNORECASE | re.DOTALL)
-
-if updated != html:
+if updated != html_src:
     INDEX_HTML.write_text(updated, encoding="utf-8")
-    print("✅ index.html updated with fresh publication list")
+    print("✅  index.html updated")
 else:
-    print("ℹ️  index.html already up-to-date — no changes made")
+    print("ℹ️  index.html уже содержит свежий блок – изменений нет")
+
+# ────────── 5. CSS-подсказка ──────────
+hint_css = """
+/* publications */
+.pub-entry       { margin:0 0 .9rem 0; line-height:1.45; }
+.pub-entry p     { text-indent:-1.6em; padding-left:1.6em; }
+.pub-entry a.ext::after{
+  content:"↗"; font-size:.75em; margin-left:.15em;
+  vertical-align:super; opacity:.6;
+}
+""".strip()
+
+style_path = REPO_DIR / "css" / "styles.css"
+if "pub-entry a.ext::after" not in style_path.read_text(encoding="utf-8"):
+    print(
+        f"""\nℹ️  Добавьте в css/styles.css для аккуратного вида ссылок:
+{hint_css}
+"""
+    )
