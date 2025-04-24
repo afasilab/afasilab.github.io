@@ -1,4 +1,4 @@
-/* Afasizhev Lab – unified stylesheet (v6) */
+/* Afasizhev Lab – unified stylesheet (v7, fixed) */
 
 :root {
   --accent: #0064d6;
@@ -77,7 +77,6 @@ section > h2::after {
 section {
   margin-bottom: clamp(2rem, 6vw, 3.5rem);
   clear: both;
-  overflow: hidden;
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
