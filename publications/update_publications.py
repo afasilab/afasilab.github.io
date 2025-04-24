@@ -12,66 +12,67 @@ update_publications.py
 pip install "scholarly>=1.7.11"
 ────────────────────────────────────────────────────────────────────────────
 """
+
 from __future__ import annotations
 
 import json, re, sys
 from datetime import datetime
-from pathlib   import Path
-from typing    import Dict, List, Tuple
+from pathlib import Path
+from typing import Dict, List, Tuple
 
 from scholarly import scholarly
 
-
-# ────────── пути ──────────
-SCRIPT_DIR = Path(__file__).resolve().parent         # …/publications
-REPO_DIR   = SCRIPT_DIR.parent                       # …/afasilab.github.io
+# ─────────────── пути ───────────────
+SCRIPT_DIR = Path(__file__).resolve().parent  # …/publications
+REPO_DIR = SCRIPT_DIR.parent                 # …/afasilab.github.io
 INDEX_HTML = REPO_DIR / "index.html"
 
-GS_DIR   = REPO_DIR / "publications" / "gs_json"
+GS_DIR = REPO_DIR / "publications" / "gs_json"
 GS_DIR.mkdir(parents=True, exist_ok=True)
 
-today     = datetime.today().strftime("%m-%d-%Y")
+today = datetime.today().strftime("%m-%d-%Y")
 JSON_FILE = GS_DIR / f"publications_detailed_{today}.json"
-# ─────────────────────────
-
 
 AUTHOR_IDS: Dict[str, str] = {
     "Ruslan Afasizhev": "U7yVbHIAAAAJ",
-    "Inna Afasizheva":  "-ivXdnsAAAAJ",
+    "Inna Afasizheva": "-ivXdnsAAAAJ",
 }
 
+LAB_MEMBERS = {
+    "Ruslan Afasizhev",
+    "Inna Afasizheva",
+    "Takuma Suematsu",
+    "Andres Vacas",
+    "Md Solayman",
+}
 
-# ═════════════ helpers ═════════════
+# ─────────────── helpers ───────────────
 def fetch_author_pubs(author_id: str) -> List[dict]:
-    """Собрать список публикаций автора по его ID."""
     base = scholarly.search_author_id(author_id)
     full = scholarly.fill(base, sections=["publications"])
     pubs: List[dict] = []
     for p in full["publications"]:
         filled = scholarly.fill(p)
-        bib    = filled.get("bib", {})
-        pubs.append(
-            {
-                "title":        bib.get("title", ""),
-                "authors":      bib.get("author", ""),
-                "year":         bib.get("pub_year", ""),
-                "journal":      bib.get("journal", ""),
-                "volume":       bib.get("volume", ""),
-                "number":       bib.get("number", ""),
-                "pages":        bib.get("pages", ""),
-                "publisher":    bib.get("publisher", ""),
-                "citation":     bib.get("citation", ""),
-                "num_citations": filled.get("num_citations", 0),
-                "pub_url":      filled.get("pub_url", ""),
-            }
-        )
+        bib = filled.get("bib", {})
+        pubs.append({
+            "title": bib.get("title", ""),
+            "authors": bib.get("author", ""),
+            "year": bib.get("pub_year", ""),
+            "journal": bib.get("journal", ""),
+            "volume": bib.get("volume", ""),
+            "number": bib.get("number", ""),
+            "pages": bib.get("pages", ""),
+            "publisher": bib.get("publisher", ""),
+            "citation": bib.get("citation", ""),
+            "num_citations": filled.get("num_citations", 0),
+            "pub_url": filled.get("pub_url", ""),
+        })
     return pubs
 
 
 def best_link(pub: dict) -> str:
-    """Отдать DOI → PMID → fallback‐URL."""
-    blob = f'{pub.get("citation","")} {pub.get("pub_url","")}'
-    doi  = re.search(r"(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", blob)
+    blob = f'{pub.get("citation", "")} {pub.get("pub_url", "")}'
+    doi = re.search(r"(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", blob)
     if doi:
         return f"https://doi.org/{doi.group(1)}"
     pmid = re.search(r"pubmed\.ncbi\.nlm\.nih\.gov/(\d{4,9})", blob)
@@ -80,51 +81,24 @@ def best_link(pub: dict) -> str:
     return pub.get("pub_url", "")
 
 
-def short_authors(auths: str, keep: int = 3) -> str:
-    """Сократить длинный список авторов до «A, B, C et al.»."""
-    names = [a.strip() for a in auths.split(" and ")]
-    return (", ".join(names[:keep]) + " et al.") if len(names) > keep + 3 else ", ".join(names)
-# ═══════════════════════════════════
-
-# ──────────────── ДОБАВЬТЕ список «своих» авторов ────────────────
-LAB_MEMBERS = {
-    "Ruslan Afasizhev",
-    "Inna Aphasizheva",
-    "Takuma Suematsu",
-    "Andres Vacas",
-    "Md Solayman",
-}
-
-# ──────────────── helper: выделяем имена ────────────────
 def highlight(author: str) -> str:
-    """Если author среди LAB_MEMBERS → <span class="lab-author"> … </span>"""
     for name in LAB_MEMBERS:
         if name.lower() in author.lower():
             return f'<span class="lab-author">{author}</span>'
     return author
 
 
-def short_authors(auth_str: str, max_first: int = 3) -> str:
-    """ 'A, B, C et al.'  + подсветка «своих» """
-    authors = [a.strip() for a in auth_str.split(" and ")]
-    authors = [highlight(a) for a in authors]            # ← НОВОЕ
-
-    if len(authors) > max_first + 3:      # >6 авторов — урезаем
-        return ", ".join(authors[:max_first]) + " et&nbsp;al."
-    return ", ".join(authors)
-
-
-# ────────── 1. собираем публикации ──────────
+# ──────────────── 1. собираем публикации ────────────────
 all_pubs: List[dict] = []
 for name, aid in AUTHOR_IDS.items():
     print(f"📥  Fetching {name} …")
     try:
         all_pubs += fetch_author_pubs(aid)
-    except Exception as e:                         # noqa: BLE001
+    except Exception as e:
         print(f"⚠️  {name}: {e}", file=sys.stderr)
 
 uniq: Dict[Tuple[str, str], dict] = {}
-for p in all_pubs:                                # дедупликация
+for p in all_pubs:
     key = (p["title"].lower().strip(), p.get("year"))
     uniq.setdefault(key, p)
 
@@ -133,18 +107,21 @@ publications.sort(key=lambda x: int(x["year"]), reverse=True)
 
 print(f"🔢  Unique publications: {len(publications)}")
 
-# ────────── 2. сохраняем JSON ──────────
+# ──────────────── 2. сохраняем JSON ────────────────
 JSON_FILE.write_text(json.dumps(publications, ensure_ascii=False, indent=2), encoding="utf-8")
 print(f"💾  Saved → {JSON_FILE.relative_to(REPO_DIR)}")
 
-# ────────── 3. генерируем HTML ──────────
-block_lines: List[str] = []
+
+# ──────────────── 3. формируем HTML-блок ────────────────
+blocks: List[str] = []
 for p in publications:
     link = best_link(p)
+
     cite = (
-        f'{short_authors(p["authors"])}. '
+        f'{p["authors"]}. '
         f'<a href="{link}" target="_blank" class="ext">{p["title"]}</a>.'
     )
+
     if p["journal"]:
         cite += f' <em>{p["journal"]}</em>'
     if p["volume"]:
@@ -154,20 +131,22 @@ for p in publications:
     if p["pages"]:
         cite += f', {p["pages"]}'
     cite += f', {p["year"]}.'
-    block_lines.append(f'    <div class="pub-entry"><p>{cite}</p></div>')
+
+    blocks.append(f'    <div class="pub-entry"><p>{cite}</p></div>')
 
 new_section = (
-    "<section id=\"publications\">\n"
-    "  <h2>Publications</h2>\n"
-    "  <div class=\"publications\">\n"
-    + "\n".join(block_lines) + "\n"
-    "  </div>\n"
-    "</section>"
+    '<section id="publications">\n'
+    '  <h2>Publications</h2>\n'
+    '  <div class="publications">\n'
+    + "\n".join(blocks) + '\n'
+    '  </div>\n'
+    '</section>'
 )
 
-# ────────── 4. встраиваем в index.html ──────────
+
+# ──────────────── 4. вставляем в index.html ────────────────
 html_src = INDEX_HTML.read_text(encoding="utf-8")
-updated  = re.sub(
+updated = re.sub(
     r'<section[^>]*id=["\']publications["\'][\s\S]*?</section>',
     new_section,
     html_src,
@@ -179,22 +158,3 @@ if updated != html_src:
     print("✅  index.html updated")
 else:
     print("ℹ️  index.html уже содержит свежий блок – изменений нет")
-
-# ────────── 5. CSS-подсказка ──────────
-hint_css = """
-/* publications */
-.pub-entry       { margin:0 0 .9rem 0; line-height:1.45; }
-.pub-entry p     { text-indent:-1.6em; padding-left:1.6em; }
-.pub-entry a.ext::after{
-  content:"↗"; font-size:.75em; margin-left:.15em;
-  vertical-align:super; opacity:.6;
-}
-""".strip()
-
-style_path = REPO_DIR / "css" / "styles.css"
-if "pub-entry a.ext::after" not in style_path.read_text(encoding="utf-8"):
-    print(
-        f"""\nℹ️  Добавьте в css/styles.css для аккуратного вида ссылок:
-{hint_css}
-"""
-    )
